@@ -115,13 +115,13 @@ from Christopher Allen that DIDs could be adapted to work with multiple
 blockchains by following the same basic pattern as the URN
 specification:
 
-![](../supporting-files/paper-images/did-primer-1.png)
+![](../../rwot5/supporting-files/paper-images/did-primer-1.png)
 
 The key difference is that with DIDs the namespace component identifies
 a **DID method**, and a **DID method specification** specifies the
 format of the method-specific identifier.
 
-![](../supporting-files/paper-images/did-primer-2.png)
+![](../../rwot5/supporting-files/paper-images/did-primer-2.png)
 
 DID methods (further explained below) define how DIDs work with a specific 
 blockchain. All DID method specs must define the format
