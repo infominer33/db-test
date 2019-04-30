@@ -17,27 +17,32 @@ Please see the [Advance Readings README](topics-and-advance-readings/) for a lis
 
 The design workshop successfully completed its five papers, which are now all available online:
 
-### [*Rebranding the Web of Trust*](rebranding-web-of-trust.pdf)
+### [*Rebranding the Web of Trust*](final-documents/rebranding-web-of-trust.pdf)
+
 #### by Shannon Appelcline, Dave Crocker, Randall Farmer, and Justin Newton
 
 > A history of the Web of Trust and a look at what the term could mean for the future.
 
-### [*Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data*](satisfying-real-world-use-cases.pdf)
+### [*Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data*](final-documents/satisfying-real-world-use-cases.pdf)
+
 #### by du5t, Kaliya "Identity Woman" Young (@identitywoman), John Edge, Drummond Reed, and Noah Thorp
 
 > Five use cases, from two relatively simple cases of managing selective disclosure to the most extreme case of establishing government-verifiable credentials from nothing for a stateless refugee.
 
-### [*Decentralized Public Key Infrastructure*](dpki.pdf)
+### [*Decentralized Public Key Infrastructure*](final-documents/dpki.pdf)
+
 #### by Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist, Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, and Harlan T Wood
 
 > A massive overview of a decentralized public-key infrastructure (DPKI).
 
-### [*Smart Signatures*](smart-signatures.pdf)
+### [*Smart Signatures*](final-documents/smart-signatures.pdf)
+
 #### by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close
 
 > A system to explicitly outline and fully program conditions for verification, inspired by Bitcoin Script.
 
-### [*Creating the New World of Trust*](whats-the-next-step.pdf)
+### [*Creating the New World of Trust*](final-documents/whats-the-next-step.pdf)
+
 #### by Shannon Appelcline
 
 > A summary of the next step for the Rebooting the Web of Trust group.
