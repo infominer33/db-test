@@ -21,7 +21,7 @@ The emergence of **distributed ledger technology** (DLT), sometimes referred to 
 
 In a DIDM architecture, each identity owner can be identified on a ledger with a [key-value pair](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair). The index key is a **decentralized identifier** (DID) and the value is its associated **DID description object **(DDO). Together these form a **DID record**. Each DID record is cryptographically secured by private keys under the identity owner’s control. Following the dictums of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design), each identity owner may have as many DID records as necessary to respect the identity owner’s desired separation of identities, personas, and contexts.
 
-This architecture not only eliminates dependence on centralized registries for identifiers, but also on centralized certificate authorities for key management as is typical of hierarchical [PKI (public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)). Instead each identity owner serves as its own root authority via its own DID record(s) on the shared ledger—an architecture called a [DPKI (decentralized PKI)](../rwot1/final-documents/dpki.pdf).
+This architecture not only eliminates dependence on centralized registries for identifiers, but also on centralized certificate authorities for key management as is typical of hierarchical [PKI (public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)). Instead each identity owner serves as its own root authority via its own DID record(s) on the shared ledger—an architecture called a [DPKI (decentralized PKI)](../../rwot1/final-documents/dpki.pdf).
 
 # 2. Purpose of this Specification
 

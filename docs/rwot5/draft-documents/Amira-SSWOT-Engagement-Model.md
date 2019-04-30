@@ -59,7 +59,7 @@ the RISK system are vetted through Web of Trust connections. The RISK
 system allows participants to opt-in to pseudonymous social reputation.
 The integrity of applications is cryptographically ensured.
 
-![](media/image5.png){width="6.5in" height="3.6527777777777777in"}
+[media/image5.png]
 
 **Stewards**
 
