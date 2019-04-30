@@ -1,4 +1,0 @@
-site_name: RWoT DB Launchpad
-site_dir: ./site
-docs_dir: ./docs
-remote_branch: master
