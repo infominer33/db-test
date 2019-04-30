@@ -11,21 +11,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/db-test/rwot1/Five-Desired-WoT-Features/</loc>
-     <lastmod>2019-04-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/db-test/rwot1/Principle-of-Relativity-for-WoT/</loc>
-     <lastmod>2019-04-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/db-test/rwot1/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/</loc>
-     <lastmod>2019-04-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://infominer.id/db-test/rwot1/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/</loc>
      <lastmod>2019-04-30</lastmod>
      <changefreq>daily</changefreq>
@@ -161,6 +146,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://infominer.id/db-test/rwot1/topics-and-advance-readings/Five-Desired-WoT-Features/</loc>
+     <lastmod>2019-04-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://infominer.id/db-test/rwot1/topics-and-advance-readings/How-Not-to-build-an-Orwellian-reputation-system/</loc>
      <lastmod>2019-04-30</lastmod>
      <changefreq>daily</changefreq>
@@ -186,6 +176,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://infominer.id/db-test/rwot1/topics-and-advance-readings/Principle-of-Relativity-for-WoT/</loc>
+     <lastmod>2019-04-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://infominer.id/db-test/rwot1/topics-and-advance-readings/ReputationAndTheRealWorld/</loc>
      <lastmod>2019-04-30</lastmod>
      <changefreq>daily</changefreq>
@@ -207,6 +202,11 @@
     </url>
     <url>
      <loc>https://infominer.id/db-test/rwot1/topics-and-advance-readings/Trust Models, Accountability, LIfeCycle and Social Context/</loc>
+     <lastmod>2019-04-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://infominer.id/db-test/rwot1/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/</loc>
      <lastmod>2019-04-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -571,11 +571,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/db-test/rwot3/did-spec-wd03/</loc>
-     <lastmod>2019-04-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://infominer.id/db-test/rwot3/draft-documents/</loc>
      <lastmod>2019-04-30</lastmod>
      <changefreq>daily</changefreq>
@@ -732,6 +727,11 @@
     </url>
     <url>
      <loc>https://infominer.id/db-test/rwot3/topics-and-advance-readings/blockchain-technologies-feature-analysis/</loc>
+     <lastmod>2019-04-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://infominer.id/db-test/rwot3/topics-and-advance-readings/did-spec-wd03/</loc>
      <lastmod>2019-04-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
