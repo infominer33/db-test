@@ -393,8 +393,7 @@ dream job of writing socially-responsible software.
 The 15-stage model presented here is an instance of an Information
 Lifecycle Engagement Framework, as illustrated below.
 
-![engagement framework.png](media/image4.png){width="6.5in"
-height="5.027777777777778in"}
+[media/image4.png]
 
 Each phase in the model is a concise description of one or two
 interactions illustrating the phase. Rather than attempting to describe
@@ -508,7 +507,7 @@ identified and targeted by the Army. Key management saves the day.
 Act III: Potential additional scenes, about getting investment, going
 public with her reputation.
 
-![](media/image3.png){width="6.5in" height="3.6527777777777777in"}
+[media/image3.png]
 
 Notes on Stage 2:
 

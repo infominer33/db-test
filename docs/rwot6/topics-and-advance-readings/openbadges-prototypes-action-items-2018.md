@@ -17,7 +17,7 @@ This effort will result in requirements, use cases, and/or draft specs to be for
 ## Goals, use cases, and deliverables:
 1. **VC Envelope**: Develop a proof of concept that uses Verifiable Credentials as a verification method for an Open Badges Assertion
   - Wrap and sign an assertion with verifiable claims envelope and linked data signature
-    - See draft: [Open Badge Assertions as Verifiable Credentials](open_badge_assertions_as_verifiable_credentials.md)
+    - See draft: [Open Badge Assertions as Verifiable Credentials](../draft-documents/open-badges-are-verifiable-credentials)
   - Update an experimental fork of the [Open Badges Validator](https://github.com/IMSGlobal/openbadges-validator-core) to support the VC envelope JSON string as an input format, including support for verification of at least one flavor of Linked Data Signature.
   - Accurately describe capabilities and limitations of verification functionality in terms of what signature suites are supported in prototype.
 2. **Blockcerts**: Develop a proof of concept that uses a [Blockcerts](https://www.blockcerts.org/) signature-and-blockchain-proof-of-existence Linked Data signature prototype using the above VC envelope. 

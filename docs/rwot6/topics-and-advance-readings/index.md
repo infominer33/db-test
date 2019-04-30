@@ -14,7 +14,7 @@ Here are the advanced readings to date:
 * [Attribute Based Credentials and Variable Length Data Graphs](AttributeBasedCredentials_and_VariableLengthDataGraphs) by nage
 * [Blockchain Timestamps Unnecessary In Proof-of-Work?](Blockchains-Timestamps-Unnecessary-In-PoW) by Greg Slepak
 * [BTCR DID Resolver](btcr_did_resolver) by Kim Hamilton Duffy, Christopher Allen, Ryan Grant
-* [Collegial Certifcation Works for Truly Collegial Communities](Collegial%20Certification%20Works%20for%20Truly%20Collegial%20Communities.pdf) by Wes Kussmaul
+* [Collegial Certifcation Works for Truly Collegial Communities](Collegial-Certification-Works-for-Truly-Collegial-Communities.pdf) by Wes Kussmaul
 * [Credential Providers for Signing Application Requests](CredentialProvider_App_Integration) by Cedric Franz
 * [DClaims News - A Fake News Mitigation Platform](DClaims) by João Santos
 * [Decentralized Attestations Storage - Current Challenges](decentralised-attestations-storage-network-challenges) by Kulpreet Singh
