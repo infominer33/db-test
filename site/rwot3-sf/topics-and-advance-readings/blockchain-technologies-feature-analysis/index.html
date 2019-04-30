@@ -1,0 +1,4809 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Blockchain Technologies Feature Analysis - RWoT DB Launchpad</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">RWoT DB Launchpad</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../../..">Welcome to another RWoT DB testing ground</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot1 sf <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot1-sf/">Index</a>
+</li>
+                                    
+<li >
+    <a href="../../../rwot1-sf/Five-Desired-WoT-Features/">Five Desirable Features for the Next Generation Web of Trust</a>
+</li>
+                                    
+<li >
+    <a href="../../../rwot1-sf/Principle-of-Relativity-for-WoT/">Principle of Relativity for WoT</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/">Decentralized Public Key Infrastructure</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/Distributed-Permanent-Identifier-Registry/">Distributed Permanent Identifier Registry</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/LICENSE-CC-BY-4.0/">LICENSE-CC-BY-4.0.md</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/detecting-key-misuse-on-a-blockchain/">Detecting Key Misuse on a Blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/rebranding-web-of-trust/">Rebranding the Web of Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/satisfying-real-world-use-cases/">Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/smart-signatures/">Smart Signatures</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/draft-documents/whats-the-next-step/">Creating the New World of Trust</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/1-introduction/">1 introduction</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/2-top-topics/">2 top topics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/3-table-topics/">3 table topics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/4-dayonesummary/">4 dayonesummary</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/5-insights-and-building-trust/">5 insights and building trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/6-presentations/">6 presentations</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/">7 where do we go from here</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/event-documents/plenaries/8-table-seven/">Table Seven Topics</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot1-sf/final-documents/">Rebooting the Web of Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/final-documents/LICENSE-CC-BY-4.0/">LICENSE-CC-BY-4.0.md</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot1-sf/supporting-files/LICENSE-CC-BY-4.0/">LICENSE-CC-BY-4.0.md</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities/">AvoidingConfusedDeputyAttackUsingCapabilities</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Decentralized-Authentication-with-Blockchain-Auth/">Decentralized Authentication with Blockchain Auth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation/">Decentralized Cooperation needs Decentralized Reputation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest/">Distributed Trust Systems and the Kenyesian Beauty Contest</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/DistributedMulti-ledgerModelForFinancialIndustry/">Distributed multi-ledger model for financial industry</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Distributed_Receptor-Based_Computing/">Distributed Receptor-Based Computing</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/FirstEncountersWithPGP/">First Encounters with PGP</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/How-Not-to-build-an-Orwellian-reputation-system/">How Not to build and Orwellian reputation system</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Identity-Property-Simulation/">rebooting-the-web-of-trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness/">Identity Guidance and Situational Awareness</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/">Key revocation of lost and stolen keys</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/LICENSE/">LICENSE</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/ReputationAndTheRealWorld/">ReputationAndTheRealWorld</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Schnorr-Signatures--An-Overview/">Schnorr Signatures  An Overview</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Secure-Naming-on-the-Blockchain/">Secure Naming on the Blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Selective-Disclosure-of-Identity/">Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Trust Models, Accountability, LIfeCycle and Social Context/">Trust Models, Accountability, LIfeCycle and Social Context</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/">Trust Exchange: An Architecture for a Permanent Open Trust Network</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs/">Web of Trust with Blockchain IDs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/advanced-web-of-trust-concepts/">Advanced web of trust concepts</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/">Authorities vs peers  pain points in security</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/binding-identity-in-decentralized-system/">Binding identity in decentralized system</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32/">Cool hack xdi blockstore bip32</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/dealing_with_key_loss_in_digital_identity/">Dealing with private key loss or compromise in digital identity systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/decentralized_e-commerce/">Building a web of trust for decentralized e-commerce platforms (e.g. OpenBazaar)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/different-models-for-trust/">Different models for trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/">Hierarchical deterministic keys  bip32 and beyond</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/ipfs-keychain/">Notes on the IPFS Keychain (or the Web Keychain)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/ipfs-links/">IPFS - The Permanent Web</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/key-exchange-as-capability-system/">Secret Handshake : Key Exchange as a Capability System</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/key-transparency-for-end-users/">Key transparency for end users</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/knowing-when-your-identity-has-been-compromised/">Knowing when your identity has been compromised</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/lightning-network-and-web-of-trust/">Lightning network and web of trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/linked-local-names/">Linked local names</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/modern-pki-identity-assertions/">Modern PKI: Identity Assertions Forming Trust Networks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/multiplexed--a-slightly-radical-framing-of-identity/">multiplexed: a 'slightly radical' framing of identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/pki_tools_in_evm_blockchains/">PKI Tools in EVM-based Blockchains</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/progressive-trust/">Progressive trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/refugee-use-case/">Refugee use case</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/rlpx/">Rlpx</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/sfs/">Self-certifying File System</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/shared_terminology_for_digital_identity_systems/">Attempts at common terminology for Digital Identity systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/">Tensions related to identity and community regulation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/thin-clients/">The Need For A Generic Thin Client Protocol</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/white-papers--specifications---and-proof-of-concept-code/">White papers  specifications   and proof of concept code</a>
+</li>
+            
+<li >
+    <a href="../../../rwot1-sf/topics-and-advance-readings/xdi-link-contracts/">XDI Link Contracts: An Overview</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot2 id2020 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot2-id2020/">Index</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/FidingIdentity/">FidingIdentity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/blockchain-extensions-for-linked-data-signatures/">Blockchain Extensions for Linked Data Signatures</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity/">Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/identity-crisis/">Identity crisis</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/protecting-digital-identities-in-developing-countries/">Protecting digital identities in developing countries</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/requirements-for-dids/">Requirements for DIDs (Decentralized Identifiers)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/smarter-signatures/">Smarter signatures</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/draft-documents/the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers/">The insecurity of charging for security and how it relates to decentralized identifiers</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/invite1/">Initial Invitation</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Graphic recording</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/graphic-recording/readme/">Readme</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Id2020</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/graphic-recording/id2020/readme/">Readme</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/1-opening/">1 opening</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/2-reportout-weboftrust/">2 reportout weboftrust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/3-reportout-id2020/">3 reportout id2020</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/4-identitypanels/">4 identitypanels</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/5-reportout/">5 reportout</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/6-self-sovereign-id-model/">6 self sovereign id model</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/7-did-reportout/">7 did reportout</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/8-finalreportout/">8 finalreportout</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/plenaries/9-finale/">9 finale</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Process</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#">Pick a panel</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/event-documents/process/pick-a-panel/readme/">Readme</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/final-documents/">Index</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/supporting-files/LICENSE-CC-BY-4.0/">LICENSE-CC-BY-4.0.md</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/Crocker-ID-Usability-Multiplicity/">Crocker ID Usability Multiplicity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/DID-Whitepaper/">Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/DexPredicatesForSmarterSigs/">Dex: Deterministic Predicate Expressions for Smarter Signatures</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/Erik Anderson-USE CASE story/">Erik Anderson USE CASE story</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/IdentitiesForMovingThings/">Identities for Moving Things</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/Identity and decentralised communications/">Identity and decentralised communications</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/Legalizing-Identity-Protocols-United-Nations/">Legalizing Identity Protocols for the United Nations 16.9</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/Trust-i-ness/">Trust-i-ness</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/XDI-Graphs-in-IPFS/">XDI Graphs in IPFS</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/blockstack-rules-and-multiple-blockchains/">Blockstack rules and multiple blockchains</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/clues/">Clues</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/double_edged_identity/">Double edged identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/identity_to_refugee_status_determination/">From Identity to Refugee Status Determination</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/no-secure-protocol-equals-no-sovereign-identity/">No Secure Protocol = No Sovereign Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/questions_around_key_management/">Questions around key management for digital identity systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity/">Scaling a bft consensus protocol for identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot2-id2020/topics-and-advance-readings/the-path-to-self-sovereign-identity/">The Path to Self-Sovereign Identity</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot3 sf <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../">Index</a>
+</li>
+                                    
+<li >
+    <a href="../../did-spec-wd03/">Did spec wd03</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../draft-documents/">Index</a>
+</li>
+            
+<li >
+    <a href="../../draft-documents/WisdomEmbedding-Human-Wisdom-in-Our-Digital-Tomorrow/">Embedding Human Wisdom in Our Digital Tomorrow</a>
+</li>
+            
+<li >
+    <a href="../../draft-documents/did-implementer-draft-10/">Did implementer draft 10</a>
+</li>
+            
+<li >
+    <a href="../../draft-documents/hubs/">Hubs</a>
+</li>
+            
+<li >
+    <a href="../../draft-documents/reputation-toolkit/">Portable Reputation Toolkit Use Cases</a>
+</li>
+            
+<li >
+    <a href="../../draft-documents/rwot3-digital-verification-outcomes/">Digital Verification Advancements at RWoT III</a>
+</li>
+            
+<li >
+    <a href="../../draft-documents/smart-consent-protocol/">Smart consent protocol</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Portable reputation</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../draft-documents/portable-reputation/">Portable Reputation Toolkit</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../event-documents/blank/">Blank</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../event-documents/plenaries/1-intro/">1 intro</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/2-lightning/">2 lightning</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/3-topicvoting/">3 topicvoting</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/4-dayoneend-planneddeliverables/">4 dayoneend planneddeliverables</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/5-daytwoend-topics/">5 daytwoend topics</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/6-aboutusandforward/">6 aboutusandforward</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/7-projectupdate/">7 projectupdate</a>
+</li>
+            
+<li >
+    <a href="../../event-documents/plenaries/8-finalnotes/">8 finalnotes</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../final-documents/">Rebooting the Web of Trust III (Fall 2016) Final Papers</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../supporting-files/blank/">Blank</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Rtk</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../supporting-files/rtk/readme/">Readme</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../">Index</a>
+</li>
+            
+<li >
+    <a href="../Consent and rights to use Personal Data/">Consent and rights to use Personal Data</a>
+</li>
+            
+<li >
+    <a href="../DistributedIdentityDistributedSelf/">Distributed Identity, Distributed Self</a>
+</li>
+            
+<li >
+    <a href="../EU-General-Data-Protection Regulation-Self-Sovereign Identifiers/">EU General Data Protection Regulation Self Sovereign Identifiers</a>
+</li>
+            
+<li >
+    <a href="../JXD-Examples/">JXD Examples</a>
+</li>
+            
+<li >
+    <a href="../Proof-of-stake-without-native-coin/">Proof of stake without native coin</a>
+</li>
+            
+<li >
+    <a href="../Sovereign-Identity-Model-for-Digital-Ecologies/">Sovereign Identity Model for Digital Ecologies</a>
+</li>
+            
+<li >
+    <a href="../alternative-futures-framework/">Alternative Futures: Framework for Identity Scenarios</a>
+</li>
+            
+<li >
+    <a href="../anonymous-credentials-in-sovrin/">Anonymous Credentials in Sovrin</a>
+</li>
+            
+<li >
+    <a href="../attestation-taxonomies/">Blockchain Attestation Taxonomies</a>
+</li>
+            
+<li >
+    <a href="../blockchain-extensions-for-linked-data-signatures/">Blockchain Extensions for Linked Data Signatures</a>
+</li>
+            
+<li class="active">
+    <a href="./">Blockchain Technologies Feature Analysis</a>
+</li>
+            
+<li >
+    <a href="../did-spec-working-draft-03/">DID (Decentralized Identifier) Specification</a>
+</li>
+            
+<li >
+    <a href="../fit-for-purpose-blockchains/">Fit for Purpose Blockchains</a>
+</li>
+            
+<li >
+    <a href="../identity-as-linked-data-on-immutable-ledgers/">Identity as Linked Data on Immutable Ledgers</a>
+</li>
+            
+<li >
+    <a href="../identity-forking-and-federated-reputation/">Identity Forking and Federated Reputation</a>
+</li>
+            
+<li >
+    <a href="../opentimestamps/">OpenTimestamps: Scalable, Trustless, Distributed Timestamping with Bitcoin</a>
+</li>
+            
+<li >
+    <a href="../portable-reputation-toolkit/">Portable Reputation Toolkit</a>
+</li>
+            
+<li >
+    <a href="../privacy-preserving-identity-architectures/">Privacy Preserving Web Identity Architectures</a>
+</li>
+            
+<li >
+    <a href="../rgrant-user-interface-standards-rwot-fall2016/">Towards a User Interface for Selectively Revealing Fine-Grained Personal Information to Transaction Counterparties</a>
+</li>
+            
+<li >
+    <a href="../user-controlled-key-recovery/">Recovery strategy for user-controlled keys for self-sovereign identity</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot4 paris <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot4-paris/">Index</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot4-paris/draft-documents/">Spring 2017 Papers in Progress</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/draft-documents/ld-signatures/">LD Signature Format Alignment</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/draft-documents/what-users-really-want/">What Users Really Want</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#">Group abstracts</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/">Directory for submitting group abstracts</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/DesignConsiderationsOfDecentralizedReputationSystems_Abstract/">Design considerations of decentralized reputation systems #</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/SignatureAlignment-Day1ProblemStatement/">LD Signature Alignment Problem Statement</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/SignatureAlignmentAbstract/">LD Signature Format Alignment</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/SignatureAlignmentImplementation/">Implementing the JSON-LD RSA Signature Suite 2017</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/btcr-did-method-spec/">BTCR DID Method Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/did-auth/">DID Auth Overview</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/event-documents/group-abstracts/work-abstract-did-methods-btcr-pgpr/">Method Specification Work for did:**btcr** and did:**pgpr**</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot4-paris/final-documents/">Rebooting the Web of Trust IV (Spring 2017) Final Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/final-documents/ld-signatures/">Ld signatures</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/final-documents/reputation-design/">Design Considerations for Decentralized Reputation Systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/final-documents/what-users-really-want/">Re-Imagining What Users Really Want</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot4-paris/supporting-files/blank/">Blank</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/BlockcertsAlignment/">Blockcerts and Open Badges signature alignment</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/Booting-a-Web-of-Sovereignty-with-a-Decentralized-Social-App/">Booting a Web of Sovereignty with a Decentralized Social App</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/Credit-based-Reputations-for-Identity-Management/">Credit-based Reputations for Identity Management with Blockchain and Flow Networks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/Fostering-resilience/">Fostering resilience</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/Levrage_EU_identities/">Distributed identities as a EU cross-border identity infrastructure</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/ProjectVouch_Peer-attestation-and-reputation-based-identity/">Project Vouch - A decentralized identity network based on public attestation, reputation, and approval of identity attributes</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/RWoT_proposals_and_modern_portable_secure_hardware/">RWoT proposals and modern portable secure hardware</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/SignatureFormatAlignment/">Aligning Signature Formats</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/Towards-a-user-centered-web-of-trust/">Towards a user-centered web of trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/Using-an-IP-blockchain-to-enhance-global-responsiveness-to-infectious-disease-outbreak/">The IP Blockchain: enhancing global responsiveness to infectious disease outbreaks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/WoTVerifiableClaims/">Verifiable Claims and Web of Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/certificate_chains_dids/">Certificate chains for DID-based self-sovereign identities</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/did-auth/">DID Auth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/did-family-of-specifications/">The DID Family of Specifications</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/did-methods-btcr-pgpr/">DID Method Specifications / BTCR and PGPR</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/did-names/">DID Names</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/dkms-decentralized-key-mgmt-system/">Decentralized Key Management System</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/id-blockchain/">Id blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/rep-proofs/">Reputation proofs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/topic_alexopoulos/">Trust for Security and Security for Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot4-paris/topics-and-advance-readings/xdi-verifiable-claims-link-contracts/">Xdi verifiable claims link contracts</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot5 boston <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot5-boston/">Index</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/Amira-SSWOT-Engagement-Model/">Amira SSWOT Engagement Model</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/DID Method Spec Template Definition/">DID Method Spec Template Definition</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/DIF-Hub-Capabilities-RWOT/">Hub Asset Access Control System (Revision: RWOT 2017-10)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/GDPR-Self-Soverign-ID/">GDPR Self Soverign ID</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/blockcerts_revocation/">Blockcerts revocation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/did-primer/">DID Primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/functional-identity-primer/">A Primer on Functional Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/identity-hubs-capabilities-perspective/">Identity Hubs Capabilities Perspective</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/self-sovereign-identity-primer/">A Primer on Self-Sovereign Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/smarm/">Smarm: Requirements for a smart-signatures Scheme</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/verifiable-claims-primer/">A Verifiable Claims Primer</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">BreakingDownAndConnectingLawAndTech</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/BreakingDownAndConnectingLawAndTech/">Index</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">DataMinimization</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/DataMinimization/Data Minimzation and Selective Disclosure/">Data Minimization and Selective Disclosure</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">UniversalResolver</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/UniversalResolver/examples/">Universal Resolver - Examples</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/UniversalResolver/resources/">Universal Resolver - Resources</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Activitypub decentralized distributed</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/activitypub-decentralized-distributed/activitypub-decentralized-distributed/">ActivityPub: from decentralized to distributed social networks</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Dcs theorem</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/dcs-theorem/The-DCS-Theorem/">\textbf{The DCS Theorem}</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Did   iot   bigchaindb</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/did - iot - bigchaindb/iot devices with dids on bigchaindb/">Representing IoT devices in BigchainDB using DID</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Did client issuer</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/did-client-issuer/did-client-issuer/">DID Client - Verifiable Claims Issuer</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Lds ocap</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/draft-documents/lds-ocap/lds-ocap/">Linked Data Capabilities</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/">Index</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Photos</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/photos/">Index</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/0-day1-overview/">0 day1 overview</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/0-day2-overview/">0 day2 overview</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/0-day3-overview/">0 day3 overview</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/0-initial-plenary/">Initial Plenary: Introducing RWOT</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/1-primer-discussions/">What We Learned from Discussing Our Primers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/2-lightning-talks/">Sixteen Lightning Talks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/3-first-day-close/">3 first day close</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/4-demos/">Day Two: Demos of Interesting Topics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/5-finalreports/">5 finalreports</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/plenaries/6-finaldiscussion/">6 finaldiscussion</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Verifiable news</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/verifiable-news/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/event-documents/verifiable-news/final-debriefing/">Final debriefing</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/">Rebooting the Web of Trust V (Fall 2017) Final Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/activitypub-decentralized-distributed/">ActivityPub: from decentralized to distributed social networks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/amira/">Amira</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/blockcerts-revocation/">A Decentralized Approach to Blockcerts Credential Revocation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/data-minimization-sd/">Data minimization sd</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/did-method-veres-one/">Did method veres one</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/gdpr/">When GDPR becomes real, and Blockchain is no longer Fairy Dust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/identity-hubs-capabilities-perspective/">Identity Hubs Capabilities Perspective</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/lds-ocap/">Linked Data Capabilities</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Dcs theorem</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/final-documents/dcs-theorem/The-DCS-Theorem/">\textbf{The DCS Theorem}</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/supporting-files/">Index</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Architectural-Layering-for-Decentralized-Identification/">Architectural Layering for Decentralized Identification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Biometric-credentials-as-high-privacy-verifiable-claims/">The Horcrux protocol: Biometric credentials as high-privacy verifiable claims</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Biometric-transaction-signing-on-blockchain/">Biometric transaction signing on blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Blockchain-Based-Digital-Signatures--Admissibility-and-Enforceability/">Blockchain Based Digital Signatures: Admissibility and Enforceability</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/DIF-Hub-Permissions-RWOT-Intent/">Hub Asset Access Control System - Intent</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Data-minimization-and-selective-disclosure/">Data minimization and selective disclosure</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Distributed Social Web Building Blocks/">Distributed Social Web Building Blocks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Framework-for-Comparison-of-Identity-Systems/">Framework for Comparison of Identity Systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Identifying-challenges-in-the-digital-economy/">Identifying challenges in the digital economy</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/RWOT-User-Story/">RebootingWebOfTrust User Story & Tech Concept</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/Visa-Really/">Visa Really</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/activitypub-decentralized-distributed/">Activitypub decentralized distributed</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/btcr-dids-ddos/">BTCR DIDs and DDOs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/byzantine-fault-tolerant-web-of-trust-based-key-value-storage/">Byzantine fault tolerant web of trust based key value storage</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/credential-handler-api/">Decentralized Identifier Tooling</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/did-3d-web/">DID for the 3D Web</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/did-gentle-intro/">DID Gentle Introduction</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/did-primer/">DID Primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/did-tooling/">Decentralized Identifier Tooling</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/dkms-recommendations/">Recommendations for Decentralized Key Management Systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/first-xdi-link-contract-between-btcr-did-and-sov-did/">First xdi link contract between btcr did and sov did</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/functional-identity-primer/">A Primer on Functional Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/hypercerts-blockcerts_revocation/">Hypercerts: Blockcerts Revocation Improvements</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/open-badges-as-verifiable-claims/">Open Badges as Verifiable Claims</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/owned-vs-unowned-claims-and-ssi/">Owned vs. Unowned Claims and Self-Sovereign Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/self-sovereign-identity-primer/">A Primer on Self-Sovereign Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/trust-objects-proposal/">Trust Objects: Enabling advanced reputation services on the Web of Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/veres-one-did-method/">Veres One DID Method Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/verifiable-claims-of-impact/">Verifiable Claims of Impact #</a>
+</li>
+            
+<li >
+    <a href="../../../rwot5-boston/topics-and-advance-readings/verifiable-claims-primer/">A Verifiable Claims Primer</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot6 santabarbara <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot6-santabarbara/">Index</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/">RWOT6 Draft Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/Biometrics/">Biometrics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/DID Auth/">DID Auth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/DecentralizedAutonomicData/">Decentralized Autonomic Data (DAD) and the three R's of Key Management</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/Identity Hub Attestation Handling/">Identity Hub Attestation Flows and Components</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/TLS-Flex/">TLS Flex</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/Towards a Sustainable Technology Commons/">Towards a Sustainable Technology Commons</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/a-roadmap-for-ssi/">SSI: A Roadmap for Adoption</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/btcr_resolver/">BTCR DID Resolver Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/decentralized-interfaces/">Decentralized Interfaces</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/did-spec-1.0/">Decentralized Identifiers v1.0</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/did_auth_draft/">Introduction to DID Auth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/introducing_btcr/">Introducing the BTCR DID Method Spec</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/key_recovery_methods/">Survey of Cryptographic Key Recovery Methods</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/key_recovery_uport/">Key recovery uport</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/making-dids-invisible-with-petnames/">Making DIDs invisible: Petnames and their secure user interfaces</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/open-badges-are-verifiable-credentials/">Open Badges are Verifiable Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/permissionless-replicated-decentralised-storage-network/">Permissionless, replicated, decentralised storage network for storing verifiable credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/draft-documents/topics-and-advance-readingsWeb Of Trust Schema RWOT 6/">topics and advance readingsWeb Of Trust Schema RWOT 6</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/">Index</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/01-intro/">Rebooting the Web of Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/02-primers/">Three Primers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/03-topic-paper-reports/">Topic Paper Report-Outs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/04-weak-signals/">Weak Signals</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/05-potentialpapers/">Topics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/06-paper-reports/">End of Day One: The Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/07-daytwo-intro/">Day Two Rebooting the Web of Trust Intro</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/08-demos/">Technology Demos</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/09-daytwo-paper-reports/">Day Two: Paper Reports</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/10-daythree-intro/">Day Three Introduction</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/11-secondaries/">Secondary Sessions</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/12-rwot/">Meta RWOT</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/event-documents/plenaries/13-finalday/">13 finalday</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/">Rebooting the Web of Trust VI (Spring 2018) Final Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/DecentralizedAutonomicData/">Decentralized Autonomic Data (DAD) and the three R's of Key Management</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/a-roadmap-for-ssi/">SSI: A Roadmap for Adoption</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/btcr-resolver/">BTCR DID Resolver Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/did-auth/">Introduction to DID Auth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/did-spec-1.0/">Decentralized Identifiers v1.0</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/identity-hub-attestations/">Identity Hub Attestation Flows and Components</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/open-badges-are-verifiable-credentials/">Open Badges are Verifiable Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/final-documents/sustainable-commons/">Sustainable commons</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot6-santabarbara/supporting-files/">Index</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/AttributeBasedCredentials_and_VariableLengthDataGraphs/">Attribute Based Credentials and Variable Length Data Graphs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/Blockchains-Timestamps-Unnecessary-In-PoW/">Blockchain Timestamps Unnecessary In Proof-of-Work?</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/CredentialProvider_App_Integration/">Credential Providers for Signing Application Requests #</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/DClaims/">DClaims News - A Fake News Mitigation Platform</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/DID Auth: Scope, Formats, and Protocols/">DID Auth: Scope, Formats, and Protocols</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/DID-Auth protocol/">DID-Auth Protocol</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/DID-Method-erc725/">DID Method erc725</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/DecentralizedAutonomicData/">Decentralized Autonomic Data (DAD) and the three R's of Key Management</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/Diam/">Integrating Identity silos via address books</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/OpenTLS/">Open TLS</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/SustainableTechnologyCommons-HeatherVescentv3/">Towards a Sustainable Technology Commons</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/TheOrgBook - RWoT Mar 2018 - Province of BC/">Open Verifiable Data to Drive the Digital Economy</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/Web-of-Pragmatics/">Web of Pragmatics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/btcr_did_resolver/">BTCR DID Resolver Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/cannabis-kyc/">Decentralized Identities for the Cannabis Industry</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/data_wallet_serivce_integration/">Proposed collaboration on open standards for data wallet and data service integration</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/decentralised-attestations-storage-network-challenges/">Decentralized Attestations Storage - Current Challenges</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/decentralized-interfaces/">Decentralized Interfaces and the Request-Responsive World</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/did-primer-extended/">DID Primer Spring 2018</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/did-primer/">A Short Primer for Decentralized Identifiers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/distributed-reputation-systems-kate-sills/">Distributed Reputation Systems Using Blockchain Records</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/documentorum/">Using blockchain to store academic accreditations</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/functional-identity-primer/">Functional identity primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/hashed-PII-Question/">hashed PII Question</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/identy_immersive_ambient_computing/">Identy immersive ambient computing</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/ld-ocap-recent-happenings/">Recent happenings with Linked Data Capabilities</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/openbadges-prototypes-action-items-2018/">Openbadges prototypes action items 2018</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/petnames/">Petnames for Self Sovereign and Human Readable Identifiers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/self-sovereign-compliance/">Self-Sovereign Compliance: Use case for DIDs and VCs in decentralized capital formation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/sidetrees-explainer/">Sidetree Asset Protocol</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/sovrin-did-method-spec-pointer/">Sovrin DID Method Spec Pointer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/sovrin-web-of-trust-3-primary-roles/">The Three Primary Roles in the Sovrin Web of Trust Model</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/veres-one-demo/">A Demonstration of the Veres One Blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/veres-one-did-method/">The Veres One DID Method</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/veres-one-primer/">A Primer on the Veres One Decentralized Identifier Blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot6-santabarbara/topics-and-advance-readings/verifiable-credentials-primer/">A Verifiable Credentials Primer</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot7 toronto <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot7-toronto/">Rebooting the Web of Trust VII: Toronto (September 2018)</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/">Draft Status</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/A_DID_for_everything/">A DID for Everything</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/Agent-Communication-Protocols/">Agent Protocols</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/Digital Credential Wallet/">Digital Credential Wallet</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/Digital-Identity-for-the-Homeless/">Digital Identity for the Homeless</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/Guidance_and_Standards_for_Interoperability_of_Decentralized_Identity_Systems/">Guidance and Standards for Interoperability of Decentralized Identity Systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/Use Cases and Proposed Solutions for Verifiable Offline Credentials/">Use Cases and Proposed Solutions for Verifiable Offline Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/Verifiable_Claims_Promise_Theory.org/">Verifiable Claims Promise Theory.org</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/btcr_0_1/">BTCR v0.1 Decisions</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/convincing-dad/">Convincing dad</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/ipld_did_documents/">IPLD as a general pattern for DID documents and Verifiable Claims</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/mental-models/">Models of Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/peer-to-peer-degrees-of-trust/">Peer to peer degrees of trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/resource-integrity-proofs/">Resource Integrity Proofs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/draft-documents/user-study-MarinaDBW/">User study: Marina DBW</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/">Index</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/1-intro/">Intro Plenary</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/10-reportout/">Report Outs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/11-feedback/">Feedback</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/12-finalreport/">Report Outs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/2-topicpapers/">Topic Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/3-horizons/">Three Horizons</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/4-sponsorships/">Sponsor Presentations</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/5-topics/">The Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/6-losttopics/">6 losttopics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/7-sponsorcivic/">Sponsors</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/8-sponsormicrosoft/">Sponsors</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/event-documents/plenaries/9-demos/">Demos</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/">Rebooting the Web of Trust VII (Fall 2018) Final Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/A_DID_for_everything/">A DID for Everything</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/btcr_0_1/">BTCR v0.1 Decisions</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/convincing-dad/">Convincing dad</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/ipld-did/">IPLD as a general pattern for DID documents and Verifiable Claims</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/mental-models/">Five Mental Models of Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/offline-use-cases/">Use Cases and Proposed Solutions for Verifiable Offline Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/peer-to-peer-degrees-of-trust/">Peer to peer degrees of trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/final-documents/resource-integrity-proofs/">Resource Integrity Proofs</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Supporting files</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/supporting-files/">Index</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/Adoption/">Addressing Global/Local Barriers to Adoption of Decentralized Identity Systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/Cryptocurrency wallets a an application of Functional Identity/">Cryptocurrency wallets as a form of Functional Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/Decentralized-Collective-Identity/">Is a Decentralized Collective Identity Possible?</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/Digital-Identity-for-the-Homeless/">Digital Identity for the Homeless</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/Nobody_REALLY_Trusts_the_Blockchain/">Nobody REALLY Trusts the Blockchain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/Secure Crypto-Wallet Introductions/">Secure Crypto-Wallet Introductions</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/The_Role_of_Standards_in_Accelerating_Innovation/">The Role of Standards in Accelerating Innovation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/ZeroTrustComputingWithDidsAndDads/">Zero Trust Computing with DIDs and DADs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/a-public-web-of-trust-of-public-identities/">A Public Web of Trust of Public Identities</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/a2a-comm-protocol-overview/">Agent to Agent Communication Protocol Overview: Addressing principles and concerns</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/blockcerts_roadmap/">Blockcerts -- where we are, and what's next</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/capauth/">CapAuth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/crypto-data-model-requirements/">Cryptographic and Data Modeling Requirements from RWoT</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/decentralized-error-reporting/">**Decentralized Error Reporting**</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/did-auth-jwe/">Decentralized Identity – Hub Authentication & Message Encryption</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/did-primer-extended/">DID Primer Spring 2018</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/did-primer/">A Short Primer for Decentralized Identifiers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/did-resolution-topics/">Did resolution topics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/diddoc-conventions-for-interoperability/">DIDDoc Conventions for Interoperability</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/dids-in-dpki/">DIDs In DPKI (Decentralized Public-key Infrastructure)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/exploring-browser-wot-use/">Exploring Browser Web of Trust Use Cases</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/five-mental-models-of-identity/">Five Mental Models of Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/functional-identity-primer/">Functional identity primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/identity-hub-permissions/">Identity Hub Permissions/Authorization</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/ipld_did_documents/">IPLD as a general pattern for DID documents</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/leveraging-eidas-for-did/">Decentralized Identities and eIDAS</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/magenc/">Magenc Magnet URIs: Secure Object Permanence for the Web</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/measuring-trust/">Measuring Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/more-control-for-identity-holders/">More control for Identity Holders</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/not-a-bot/">Not a bot</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/political-economy-of-naming/">The Political Economy of Naming - RWoT Fall 2018</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/resource-integrity-proofs/">Resource Integrity Proofs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/standards-for-governance/">Standards for governance</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/towards-a-terminology-concept-map/">A Concept Diagram For RWOT Identity Terms</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/towards-proof-of-person/">Towards Proof-of-Person</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/trustless-web-of-trust/">A Trustless Web-of-Trust &ndash; establishing identity uniqueness</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/united-humans/">The United Humans</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/verifiable-credentials-primer/">A Verifiable Credentials Primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/verifiable-offline-credentials/">Verifiable Offline Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/verifiable_displays/">Verifiable Displays</a>
+</li>
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/what-and-who-is-in-your-wallet/">What and Who Is In Your Wallet?</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Presentation request</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot7-toronto/topics-and-advance-readings/presentation-request/presentation-request/">Scoped Presentation Request on Verifiable Credentials</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rwot8 barcelona <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../rwot8-barcelona/">Rebooting the Web of Trust VIII: Barcelona (March 2019)</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Draft documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/">Draft Documents</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/ContainerId/">Identity Containers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/Evaluating-social-recovery/">RWOT8: Evaluating social schemes for recovering control of an identifier</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/Joram_Illustrated/">Joram Illustrated</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/did-auth-oidc/">Using OpenID Connect Self-Issued to achieve DID Auth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/did-auth-vc-exchange/">Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/did-key-management-browser/">Did key management browser</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/did-spec-refinement/">RWoT8 DID Specification Refinement</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/digital-citizen/">Digital citizen</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/driving-adoption-with-basic-human-needs/">Driving adoption with basic human needs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials/">Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/how-ssi-will-survive-capitalism/">How SSI Will Survive Capitalism</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/ipid-crud/">CRUD and multi-device for IPID</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/joram.2.0.0/">Joram.2.0.0</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/journalism-use-cases/">Use Cases and Research Directions for self-sovereign publication and journalism</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/libp2p_did_auth./">libp2p for DID Authentication and the exchange of Verifiable Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/naming-survey/">Human-meaningful names for SSI</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/peer-DID-method-spec-report/">Peer DID Method Specification Report</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/satyrn/">Satyrn</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/self-signed-credentials/">Enabling a Web of Trust with Self-Signed and Self-Issued Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/shamir-secret-sharing-best-practices/">Shamir secret sharing best practices</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/understanding-dids-in-greater-depth/">Understanding dids in greater depth</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/vc-museum-playground/">Verifiable Credential playground-museum</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Joram illustrations</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot8-barcelona/draft-documents/joram-illustrations/">JORAM Illustrations</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Event documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/">Index</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#">Plenaries</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/01-intro-friday/">Introduction</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/02-initialtopics/">Initial Topics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/03-weaksignals/">Weak Signals</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/04-presentation-vennagency/">Presentation: Venn Agency</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/05-reportout-friday/">Initial Group Abstracts</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/06-intro-saturday/">Introduction: Day Two</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/07-demos/">Demos</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/08-reportout-saturday/">Group Report-out</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/09-intro-sunday/">Intro (Our Last Day)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/10-community/">Community Evolution</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/event-documents/plenaries/11-reportout-sunday/">Final Report Out</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Final documents</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot8-barcelona/final-documents/">Rebooting the Web of Trust VIII (Spring 2019) Final Papers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/final-documents/did-spec-refinement/">RWoT8 DID Specification Refinement</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/final-documents/how-ssi-will-survive-capitalism/">How SSI Will Survive Capitalism</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Topics and advance readings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/">Index</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/A-DID-for-every-thing---Agile-Driving-Data-Chain/">A DID for every thing   Agile Driving Data Chain</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS/">Aligning SSI with European Union identity legislation (aka eIDAS Regulation)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Anonymous_DIDs/">Staying Anonymous With DIDs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Applying_POLA_to_User_Interaction/">Applying the Principle of Least Authority to User Interaction</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/DID-Content-References/">DID Content References</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Designing Trust in Identity Systems/">RWoT 8 Topic Paper</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Digital-Identity-for-the-Homeless/">Digital Identity for the Homeless</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/DigitalTrustProtocol/">Digital Trust Protocol</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/P2P-DID/">Peer to Peer DIDs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Proof_of_Key_Ownership_with_OpenID_Connect_Self-Issued_Identities/">Proof of Key Ownership with OpenID Connect Self-Issued Identities</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Providing_Decentralized_Identity_to_the_most_vulnerable_populations/">Providing Decentralized Identity to the most vulnerable populations</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/RWOT-local-chapters/">RWOT local chapters</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/RightToErasure/">GDPR: Right to erasure</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/SSI-FrameworkProposal/">Self-Sovereign Identity Framework/Thought Model</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Socia_ Key_Recovery_design_implentation/">Socia  Key Recovery design implentation</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Universal-DID-Operations/">Universal DID Operations</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Using-Immutable-Data-Objects/">Using Immutable Data Objects to Define Verifiable Credential Data</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/Zero-knowledge-Proofs/">Zero-knowledge proofs in identity systems</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/bootstrap_web-of-trust_reliance-lifecycle/">How do we bootstrap the web of trust in Verifiable Claims</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem/">Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/contextual_nondiscrete_identity/">Contextual Non-discrete Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/credentials-and-correlation/">**Credentials and Correlation**</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/data-vala-realization/">Data Value Realisation: Control, Commons & Ownership</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/decentralized-digital-identity-book/">Decentralized Digital Identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/did-fee-market-using-micropayments/">Re-inventing Incentive Structures Using DID and Microtransactions</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/did-namespace-records/">DID Namespace Records</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/did-primer-extended/">DID Primer Spring 2018</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/did-primer/">A Short Primer for Decentralized Identifiers</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/did-spec-current-status/">The Current Status of the DID Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/did-ux/">Where's the UX?</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/digital-contraception/">Digital Contraception</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/diverse-teams/">Assist underrepresented groups when entering the labour market through self sovereign identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/educational-credentialing-ecosystem/">Designing a Recipient-Centric Educational Digital Credential Ecosystem</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/exploring_adoption_of_sharing_vcs/">Exploring adoptation of VC sharing to provide value today</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/financing-self-sovereign-stack/">Financing a Self-sovereign Technology Stack</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/functional-identity-primer/">Functional identity primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/glossary-primer/">A Glossary of Terms for Rebooting the Web of Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/graphs-everywhere/">I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/handshake/">Handshake</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/humanity-API/">Humanity's API - solving Fermi paradox.</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/identity-containers/">Sikaris - Decentralized Identity with Identity Containers (SSI)</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/identity-for-people-places/">Identity for people places</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/idm-concept/">Identity Manager Concept</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/idm-spec/">Identity Manager Specification</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/implementing-threshold-schemes/">Implementing threshold schemes</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/introductory-capability-dht-concept/">Introductory Capability DHT</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/journalistic-use-cases/">Journalistic use-cases for SSI:  signatures, verified claims, and canonical-text registries</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/libp2p_did_auth./">libp2p for DID Authentication and the exchange of Verifiable Credentials</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/multiformat-superfriends/">The Multibase, Multihash, and Hashlink Specifications</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/name-services-and-ssi/">Name services and ssi</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/notebook-workbench/">A Notebook Workbench for SSI</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/oidc-profile-for-ssi/">OIDC Profile for SSI</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/on-interpersonal-data/">On interpersonal data</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/psdad/">PSDAD - A new data format with secure semantics</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/rightsframeworks/">Rightsframeworks</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/security_shamirs/">Security shamirs</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/social-key-recovery/">A New Approach to Social Key Recovery</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/ssi20XX-model-use-case-def/">SSI20XX - Model Use-Case Definitions and Implementation Commitment for higher Solution Interoperability and Robust Specifications.</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/structures_of_identity/">Structures of Identity: Namespace</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/supporting-btcr/">Querying Bitcoin blockchain for BTCR support</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/the-untimely-death-of-ssi/">The Untimely Death of SSI</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/trusting-attributes/">Multi-Factor Attribute Trust</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/united-humans-critiqal-questions/">The United Humans - can it really work?</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/universal-id-framework/">Universal id framework</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/universal-ledger-agent/">The universal ledger agent: a logical result of Rabobank's journey in blockchain based self-sovereign identity</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/universe-is-blockchain/">Is the Universe a blockchain?  A cryptographic model of the Universe.</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/vcs-agent-centric/">Vcs agent centric</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/verifiable-credentials-primer/">A Verifiable Credentials Primer</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/verifiable-displays-in-HTML/">Verifiable Displays: secure presentation of Verifiable Credentials in HTML</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/verifiable-postal-address-claims/">Verifiable Claims for Postal Addresses: A Use Case for Decentralized Postal Services using DIDs, VCs and Blockchains</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/w3c-identity-workshop-report/">_DRAFT_ W3C Strong Authentication and Identity Workshop Report</a>
+</li>
+            
+<li >
+    <a href="../../../rwot8-barcelona/topics-and-advance-readings/why-WOTs-work/">Why webs of trust work, even the PGP one?</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Self sovereign identity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/">self-sovereign-identity</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/7-myths-of-self-sovereign-identity/">7 myths of self sovereign identity</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/LICENSE-CC-BY-4.0/">LICENSE-CC-BY-SA-4.0.md</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/Schutte-on-SSI/">Schutte on SSI</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/ThePathToSelf-SovereignIdentity/">The Path to Self-Sovereign Identity</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/characteristics-of-sovereign-identity/">Core Characteristics of Sovereign Identity</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/self-sovereign-identity-bill-of-rights/">lifeID Self-Sovereign Identity Bill of Rights</a>
+</li>
+                                    
+<li >
+    <a href="../../../self-sovereign-identity/self-sovereign-identity-principles/">Self sovereign identity principles</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../blockchain-extensions-for-linked-data-signatures/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../did-spec-working-draft-03/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#blockchain-technologies-feature-analysis">Blockchain Technologies Feature Analysis</a></li>
+            <li><a href="#abstract">Abstract</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#terminology">Terminology</a></li>
+            <li><a href="#security-principles-summary-chart">Security Principles Summary Chart</a></li>
+            <li><a href="#performance-principles-summary-chart">Performance Principles Summary Chart</a></li>
+            <li><a href="#bitcoin">Bitcoin</a></li>
+            <li><a href="#ethereum">Ethereum</a></li>
+            <li><a href="#stellar">Stellar</a></li>
+            <li><a href="#ipfs">IPFS</a></li>
+            <li><a href="#blockstack">Blockstack</a></li>
+            <li><a href="#hashgraph">Hashgraph</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="blockchain-technologies-feature-analysis">Blockchain Technologies Feature Analysis</h1>
+<pre><code>Copyright 2016 Digital Bazaar, Inc. (except for Data Structure sections)
+Shared under a Creative Commons Attribution 4.0 International license
+</code></pre>
+
+<h2 id="abstract">Abstract</h2>
+<p>This document analyses the security and performance characteristics of six
+interesting software systems related to blockchain technology and decentralized
+identity systems. The systems analyzed in this report are Bitcoin, Ethereum,
+Stellar, IPFS, Blockstack, and Hashgraph.</p>
+<h2 id="overview">Overview</h2>
+<p>The security and performance findings of this report are summarized in table
+form at the beginning of the report. Each technology is then analyzed in
+detail for the rest of the report.</p>
+<p>Each analysis of a particular blockchain technology starts by documenting the
+basic data structures used for the system. The basic data structures are a
+window into the information that the system needs to operate. They also
+provide a view into the capabilities and complexity of the given system.</p>
+<p>Once the data structures are highlighted, an analysis on the security
+characteristics of the system is performed. This analysis is based on what the
+system is capable of doing today. A similar analysis is then performed for the
+performance characteristics of the system. Finally, the notable
+characteristics of the system are outlined in an attempt to highlight what
+makes the particular blockchain different from other blockchains.</p>
+<p><strong>Disclaimer</strong></p>
+<pre><code>The analysis performed in this document is preliminary, the field of study is
+rapidly evolving, and thus this document is a work in progress. There may be
+errors or interpretations that do not align with the high-level summaries that
+the authors have presented in this analysis. We are actively engaging with the
+developer communities that created each technology analyzed in this document
+in an attempt to ensure that the information provided and analysis performed
+is accurate.
+</code></pre>
+
+<table>
+  <tbody>
+    <tr>
+    </tr>
+    <tr>
+      <td>
+          <h5>Table of Contents</h5>
+          <b>﹂</b> <a href="#terminology">
+          Terminology
+          </a><br>
+          <b>﹂</b> <a href="#security-principles-summary-chart">
+          Security Principles Summary Chart
+          </a><br>
+          <b>﹂</b> <a href="#performance-principles-summary-chart">
+          Performance Principles Summary Chart
+          </a><br>
+          <b>﹂</b> <a href="#bitcoin">
+          Bitcoin
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#data-structures">
+          Data Structures
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#block-format">
+          Block Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#blockheader-format">
+          Blockheader Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#transaction-format">
+          Transaction Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#transaction-input-format">
+          Transaction Input Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="transaction-output-format">
+          Transaction Output Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#security-characteristics">
+          Security Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#performance-characteristics">
+          Performance Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#notable-features">
+          Notable Features
+          </a><br>
+          <b>﹂</b> <a href="#ethereum">
+          Ethereum
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#data-structures-1">
+          Data Structures
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#account-format">
+          Account Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#message-transaction-format">
+          Message Transaction Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#receipt-format">
+          Receipt Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#block-format-1">
+          Block Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#security-characteristics-1">
+          Security Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#performance-characteristics-1">
+          Performance Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#notable-features-1">
+          Notable Features
+          </a><br>
+          <b>﹂</b> <a href="#stellar">
+          Stellar
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#data-structures-2">
+          Data Structures
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#ledgerheader-format">
+          LedgerHeader Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#account-format-1">
+          Account Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#transaction-format-1">
+          Transaction Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#security-characteristics-2">
+          Security Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#performance-characteristics-2">
+          Performance Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#notable-features-2">
+          Notable Features
+          </a><br>
+          <b>﹂</b> <a href="#ipfs">
+          IPFS
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#data-structures-3">
+          Data Structures
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#object-merkle-dag---ipfslink">
+          Object Merkle DAG - IPFSLink
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#object-merkle-dag---ipfsobject">
+          Object Merkle DAG - IPFSObject
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#other">
+          Other
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#security-characteristics-3">
+          Security Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#performance-characteristics-3">
+          Performance Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#notable-features-3">
+          Notable Features
+          </a><br>
+          <b>﹂</b> <a href="#blockstack">
+          Blockstack
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#data-structures-4">
+          Data Structures
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#base-name-record-format">
+          Base Name Record Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#base-namespace-format">
+          Base Namespace Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#name-import-format">
+          Name Import Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#namespace-preorder-format">
+          Namespace Preorder Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#namespace-reveal-format">
+          Namespace Reveal Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#namespace-ready-format">
+          Namespace Ready Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#name-preorder-format">
+          Name Preorder Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#name-registration-format">
+          Name Registration Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#name-revoke-format">
+          Name Revoke Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#name-update-format">
+          Name Update Format
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#security-characteristics-4">
+          Security Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#performance-characteristics-4">
+          Performance Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#notable-features-4">
+          Notable Features
+          </a><br>
+          <b>﹂</b> <a href="#hashgraph">
+          Hashgraph
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#data-structures-5">
+          Data Structures
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;﹂</b> <a href="#gossip-event">
+          Gossip Event
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#security-characteristics-5">
+          Security Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#performance-characteristics-5">
+          Performance Characteristics
+          </a><br>
+          <b>&nbsp;&nbsp;&nbsp;﹂</b> <a href="#notable-features-5">
+          Notable Features
+          </a><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="terminology">Terminology</h2>
+<p>In order to perform a meaningful analysis of each system, it is important to
+define and use the terminology that is applied to each system consistently.
+The terminology below is used throughout the document and readers are strongly
+advised to understand the terminology before going further and to refer back
+to this section in order to fully understand the usage of each term in the
+analysis sections.</p>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: Asserts that information is not made available or
+disclosed to unauthorized individuals, entities, or processes.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: Asserts that information accuracy and completeness of data
+over its entire life-cycle is maintained and assured.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Asserts that one party of a transaction cannot deny
+having received a transaction nor can the other party deny having sent a
+transaction.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Asserts that all information to perform a
+particular action must be available when it is needed.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: Asserts that the the chronology of ownership, custody, or
+location of a piece of information can be traced throughout time.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Asserts that interactions do not expose an entity’s true
+name or legal identity</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: A situation where an entity may disclose
+information to one or more selected entities without disclosing that
+information outside of the selected set.</p>
+</li>
+<li>
+<p><strong><code>Consistency</code></strong>: Asserts that all nodes in a decentralized system see the
+same data at the same time.</p>
+</li>
+<li>
+<p><strong><code>System Availability</code></strong>: Asserts that every request receives a response
+about whether it succeeded or failed.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: Asserts that the a decentralized system continues
+to operate despite arbitrary partitioning due to network failures.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: A characteristic of a system that states how performance
+characteristics change as the system grows or shrinks in size.</p>
+</li>
+<li>
+<p><strong><code>Latency</code></strong>: A characteristic of a system that states how much time it
+takes to complete certain operations.</p>
+</li>
+<li>
+<p><strong><code>Auditability</code></strong>: A characteristic of a system that ensures that the
+complete system state can be verified at any given time to be correct.</p>
+</li>
+<li>
+<p><strong><code>Liveliness</code></strong>: A characteristic of a system that states that all data
+requested may be retrieved from the system at any point.</p>
+</li>
+<li>
+<p><strong><code>Denial of Service Resistance</code></strong>: A measure of a system’s ability to
+respond to requests when under extreme load. Typically, a mechanism is
+utilized that is capable of determining a valid request from an invalid one or
+that makes the price the attacker must pay far greater than the price the
+receiver must pay to execute the request.</p>
+</li>
+<li>
+<p><strong><code>System Complexity</code></strong>: The level of complexity in the system that exists
+to achieve a set of tasks.</p>
+</li>
+</ul>
+<h2 id="security-principles-summary-chart">Security Principles Summary Chart</h2>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th align="center">Bitcoin</th>
+<th align="center">Ethereum</th>
+<th align="center">Stellar</th>
+<th align="center">IPFS</th>
+<th align="center">Blockstack</th>
+<th align="center">Hashgraph</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Confidentiality</strong></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><em>Hash-based content addresses</em></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><code>NONE</code></td>
+</tr>
+<tr>
+<td><strong>Information Availability</strong></td>
+<td align="center">Block Mirroring</td>
+<td align="center">Block Mirroring</td>
+<td align="center">Ledger Mirroring</td>
+<td align="center"><em>Graph and file Mirroring</em></td>
+<td align="center"><em>Block Mirroring / DHT Mirroring</em></td>
+<td align="center"><em>Hashgraph Mirroring; optional event history</em></td>
+</tr>
+<tr>
+<td><strong>Integrity</strong></td>
+<td align="center"><em>Multiple block verifications</em></td>
+<td align="center"><em>Multiple block verifications</em></td>
+<td align="center">Latest block verification</td>
+<td align="center">Hash-based content addressing</td>
+<td align="center"><em>Multiple block verifications</em></td>
+<td align="center">Consensus with probability one</td>
+</tr>
+<tr>
+<td><strong>Non-repudiation</strong></td>
+<td align="center">Digital signatures</td>
+<td align="center">Digital signatures</td>
+<td align="center">Digital signatures</td>
+<td align="center">Digital signatures</td>
+<td align="center">Digital signatures</td>
+<td align="center">Digital signatures</td>
+</tr>
+<tr>
+<td><strong>Provenance</strong></td>
+<td align="center">Transaction inputs/outputs</td>
+<td align="center">Ethereum state machine and transition functions</td>
+<td align="center">Digitally signed ledger transition instructions</td>
+<td align="center">Digital signatures and versioning</td>
+<td align="center">Transaction inputs &amp; outputs and virtualchain references</td>
+<td align="center"><em>Hashgraph Mirroring; optional event history</em></td>
+</tr>
+<tr>
+<td><strong>Pseudonymity</strong></td>
+<td align="center"><em>Public keys</em></td>
+<td align="center"><em>Public keys and contract addresses</em></td>
+<td align="center"><em>Public keys</em></td>
+<td align="center"><em>Public keys</em></td>
+<td align="center"><em>Public keys, but public information encouraged</em></td>
+<td align="center"><em>Not supported; could be layered</em></td>
+</tr>
+<tr>
+<td><strong>Selective Disclosure</strong></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><code>NONE</code></td>
+<td align="center"><em>Selective access to encrypted storage</em></td>
+<td align="center"><em>Not supported; could be layered</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance-principles-summary-chart">Performance Principles Summary Chart</h2>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th align="center">Bitcoin</th>
+<th align="center">Ethereum</th>
+<th align="center">Stellar</th>
+<th align="center">IPFS</th>
+<th align="center">Blockstack</th>
+<th align="center">Hashgraph</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Consistency</strong></td>
+<td align="center">Block verifications. 30-60 minutes</td>
+<td align="center">Block verifications. 20-60 minutes</td>
+<td align="center">Single block verification. Less than 1 minute</td>
+<td align="center">P2P mirroring. Limited primarily by network I/O. Several seconds for files less than 128KB.</td>
+<td align="center">Block verifications. 30-60 minutes</td>
+<td align="center">Consensus with probability one; Byzantine agreement, but attackers must control less than one-third</td>
+</tr>
+<tr>
+<td><strong>System Availability</strong></td>
+<td align="center">Block verifications. 30-60 minutes</td>
+<td align="center">Block verifications. 20-60 minutes</td>
+<td align="center">Single block verification. Less than 1 minute.</td>
+<td align="center">Single storage request response. Several seconds for files less than 128KB</td>
+<td align="center">Block verifications. 30-60 minutes</td>
+<td align="center">Virtual voting; DoS resistant w/o proof-of-work, fast gossip</td>
+</tr>
+<tr>
+<td><strong>Failure Tolerance</strong></td>
+<td align="center">Longest chain wins</td>
+<td align="center">Longest chain wins</td>
+<td align="center">Last balloted block always has consensus.</td>
+<td align="center">Content address hash. Highly resilient against network partitioning</td>
+<td align="center">Longest chain wins</td>
+<td align="center">Strong Byzantine fault tolerance</td>
+</tr>
+<tr>
+<td><strong>Scalability</strong></td>
+<td align="center">Block size. 7 transactions per second</td>
+<td align="center">Block size. 7-20 transactions per second</td>
+<td align="center">Thousands to tens of thousands of transactions per second.</td>
+<td align="center">Thousands to tens of thousands of transactions per second. Scales linearly as nodes are added.</td>
+<td align="center">Block size. 7 transactions per second</td>
+<td align="center">Thousands to tens of thousands of transactions per second. Limited by bandwidth only</td>
+</tr>
+<tr>
+<td><strong>Latency</strong></td>
+<td align="center">Block verifications. 30-60 minutes</td>
+<td align="center">Block verifications. 20-60 minutes</td>
+<td align="center">Single block verification. Less than 1 minute.</td>
+<td align="center">Single storage request response. Several seconds for files less than 128KB.</td>
+<td align="center">Block verifications. 30-60 minutes</td>
+<td align="center">Virtual voting; limited only by exponentially fast gossip protocol</td>
+</tr>
+<tr>
+<td><strong>Auditability</strong></td>
+<td align="center">Full</td>
+<td align="center">Full</td>
+<td align="center">Full</td>
+<td align="center">Difficult</td>
+<td align="center">Full</td>
+<td align="center">Configurable</td>
+</tr>
+<tr>
+<td><strong>Liveliness</strong></td>
+<td align="center">Full</td>
+<td align="center">Full</td>
+<td align="center">Full</td>
+<td align="center">Fails if nodes storing data fail</td>
+<td align="center">Full</td>
+<td align="center">Full</td>
+</tr>
+<tr>
+<td><strong>Denial of Service Resistance</strong></td>
+<td align="center">Spend Bitcoin</td>
+<td align="center">Spend Ether</td>
+<td align="center">Spend Stellar</td>
+<td align="center">Files are only mirrored if requested</td>
+<td align="center">Spend Bitcoin</td>
+<td align="center">Signed State / Proof-of-stake / &lt; 1/3 attackers</td>
+</tr>
+<tr>
+<td><strong>System Complexity</strong></td>
+<td align="center">Medium</td>
+<td align="center">High</td>
+<td align="center">Medium</td>
+<td align="center">Medium</td>
+<td align="center">Medium</td>
+<td align="center">Low, but not full system</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bitcoin">Bitcoin</h2>
+<h3 id="data-structures">Data Structures</h3>
+<h4 id="block-format">Block Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Magic no</code></td>
+<td>value always <code>0xD9B4BEF9</code></td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>Blocksize</code></td>
+<td>number of bytes following up to end of block</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>Blockheader</code></td>
+<td>See below</td>
+<td>80 bytes</td>
+</tr>
+<tr>
+<td><code>Transaction counter</code></td>
+<td>positive integer</td>
+<td>1 - 9 bytes</td>
+</tr>
+<tr>
+<td><code>transactions</code></td>
+<td>the (non empty) list of transactions</td>
+<td><code>Transaction counter</code> - many transactions</td>
+</tr>
+</tbody>
+</table>
+<h4 id="blockheader-format">Blockheader Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Version</code></td>
+<td>Block version number</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>hashPrevBlock</code></td>
+<td>256-bit hash of the previous block header</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>hashMerkleRoot</code></td>
+<td>256-bit hash based on all of the transactions in the block</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>Time</code></td>
+<td>Current timestamp as seconds since <code>1970-01-01T00:00 UTC</code></td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>Bits</code></td>
+<td>Current target in compact format</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>Nonce</code></td>
+<td>32-bit number (starts at 0)</td>
+<td>4 bytes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="transaction-format">Transaction Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Version no</code></td>
+<td>currently 1</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>In-counter</code></td>
+<td>positive integer</td>
+<td>1 - 9 bytes</td>
+</tr>
+<tr>
+<td><code>list of inputs</code></td>
+<td>the first input of the first transaction is also called "coinbase" (its content was ignored in earlier versions)</td>
+<td><code>In-counter</code> - many inputs</td>
+</tr>
+<tr>
+<td><code>Out-counter</code></td>
+<td>positive integer</td>
+<td>1 - 9 bytes</td>
+</tr>
+<tr>
+<td><code>list of outputs</code></td>
+<td>the outputs of the first transaction spend the mined bitcoins for the block</td>
+<td><code>Out-counter</code> - many outputs</td>
+</tr>
+<tr>
+<td><code>lock_time</code></td>
+<td>if non-zero and sequence numbers are &lt; <code>0xFFFFFFFF</code>: block height or timestamp when transaction is final</td>
+<td>bytes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="transaction-input-format">Transaction Input Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Previous Transaction hash</code></td>
+<td>doubled SHA256-hashed of a (previous) to-be-used transaction</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>Previous Txout-index</code></td>
+<td>non negative integer indexing an output of the to-be-used transaction</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>Txin-script length</code></td>
+<td>non negative integer</td>
+<td>1 - 9 bytes</td>
+</tr>
+<tr>
+<td><code>Txin-script / scriptSig</code></td>
+<td>Script</td>
+<td><code>in-script length</code> - many bytes</td>
+</tr>
+<tr>
+<td><code>sequence_no</code></td>
+<td>normally <code>0xFFFFFFFF</code>; irrelevant unless transaction's lock_time is &gt; 0</td>
+<td>4 bytes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="transaction-output-format">Transaction Output Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>value</code></td>
+<td>non negative integer giving the number of Satoshis to be transferred</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>Txout-script length</code></td>
+<td>non negative integer</td>
+<td>1 - 9 bytes</td>
+</tr>
+<tr>
+<td><code>Txout-script / scriptPubKey</code></td>
+<td>Script</td>
+<td><code>out-script length</code> - many bytes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-characteristics">Security Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: None. All information in the Bitcoin blockchain is
+public. Confidentiality is achieved by hashing data and placing it in the
+blockchain.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Block mirroring. In general, all information
+is highly mirrored and available at all times. It may be true that some of the
+more recent information cannot be trusted until more block verifications are
+performed.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: Multiple block verifications. Information is accurate given
+no blockchain forks. Integrity cannot be strongly trusted until at least 6+
+verifications have been performed.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Digital signatures. All transactions are digitally
+signed and are thus non-repudiable.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: Transaction inputs and outputs. All transactions can be
+traced using block inputs and outputs.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Public keys used as identifiers. All transactions use
+public keys as identifiers (not legal names or identifiers). Pseudonymity may
+be compromised via court orders to Bitcoin money transmitters.</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: None. All information in the Bitcoin blockchain
+is public. Selective disclosure could theoretically be achieved via symmetric
+key encryption, but due to the permanent nature of the Bitcoin blockchain and
+the impermanent nature of cryptographic protection, storing encrypted
+information directly on the Blockchain is ill advised.</p>
+</li>
+</ul>
+<h3 id="performance-characteristics">Performance Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Consistency</code></strong>: Multiple block verifications. Eventual consistency is
+guaranteed through multiple block verifications. Consistency of a freshly
+committed block cannot be highly trusted until between 30 to 60 minutes after
+the transaction.</p>
+</li>
+<li>
+<p><strong><code>System Availability</code></strong>: Multiple block verifications. Transactions are
+not verified to a high degree of certainty until between 30 to 60 minutes
+after the transaction occurs.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: Longest chain wins. Eventual consistency during
+arbitrary network partitioning. Mining allocation may cause one network
+partition to gain blocks at a faster rate than other partitions. In these
+cases, transactions are not very tolerant to failure depending on which
+network partition a transaction is written to.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: Block size. Transaction speed is currently set at 7
+transactions per second with a 1MB block size.</p>
+</li>
+<li>
+<p><strong><code>Latency</code></strong>: Multiple block verifications. Transaction verifications take
+between 30 to 60 minutes after a transaction occurs to be verified. In May
+2016, boot-up time for new nodes takes 1-3 days due to having to download
+69GBs of data from peers and audit the blockchain.</p>
+</li>
+</ul>
+<h3 id="notable-features">Notable Features</h3>
+<ul>
+<li>
+<p><strong><code>Proof of Work</code></strong>: Processing cycles must be expended in order to be able 
+to write a new block to the blockchain.</p>
+</li>
+<li>
+<p><strong><code>Bitcoin Script</code></strong>: A non-turing complete, Forth-like, stack-based 
+scripting system, without support for loops is used for transaction inputs and 
+outputs enabling some programmability for how transactions can be spent.</p>
+</li>
+<li>
+<p><strong><code>Mining Rewards</code></strong>: To incentivize block verification, bounties are
+provided to miners that make securing the blockchain a profitable endeavor.</p>
+</li>
+</ul>
+<h2 id="ethereum">Ethereum</h2>
+<h3 id="data-structures_1">Data Structures</h3>
+<h4 id="account-format">Account Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>nonce</code></td>
+<td>A scalar value equal to the number of transactions sent from this address or, in the case of accounts with associated code, the number of contract-creations made by this account.</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>balance</code></td>
+<td>A scalar value equal to the number of Wei owned by this address.</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>storageRoot</code></td>
+<td>A 256-bit hash of the root node of a Merkle Patricia tree that encodes the storage contents of the account (a mapping between 256-bit integer values), encoded into the trie as a mapping from the Keccak 256-bit hash of the 256-bit integer keys to the RLP-encoded 256-bit integer values.</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>codeHash</code></td>
+<td>The hash of the EVM code of this account—this is the code that gets executed should this address receive a message call; it is immutable and thus, unlike all other fields, cannot be changed after construction. All such code fragments are contained in the state database under their corresponding hashes for later retrieval.</td>
+<td>32 bytes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="message-transaction-format">Message Transaction Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>nonce</code></td>
+<td>A 64-bit hash which proves combined with the mix-hash that a sufficient amount of computation has been carried out on this block</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>gasPrice</code></td>
+<td>A scalar value equal to the number of Wei to be paid per unit of gas for all computation costs incurred as a result of the execution of this transaction.</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>gasLimit</code></td>
+<td>A scalar value equal to the current limit of gas expenditure per block</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>to</code></td>
+<td>The 160-bit address of the message call’s recipient or, for a contract creation transaction, ∅, used here to denote the only member of B0.</td>
+<td>20 bytes</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td>A scalar value equal to the number of Wei to be transferred to the message call’s recipient or, in the case of contract creation, as an endowment to the newly created account</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>v, r, s</code></td>
+<td>Values corresponding to the signature of the transaction and used to determine the sender of the transaction</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td>Only in non-contract messages. An unlimited size byte array specifying the input data of the message call.</td>
+<td>unlimited</td>
+</tr>
+<tr>
+<td><code>init</code></td>
+<td>Only in contract messages.An unlimited size byte array specifying the EVM-code for the account initialisation procedure</td>
+<td>unlimited</td>
+</tr>
+<tr>
+<td><code>body</code></td>
+<td>Only in contract messages. A fragment of code that executes each time the account receives a message call (either through a transaction or due to the internal execution of code)</td>
+<td>unlimited</td>
+</tr>
+</tbody>
+</table>
+<h4 id="receipt-format">Receipt Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>state</code></td>
+<td>the post-transaction state</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>cumulativeGasUsed</code></td>
+<td>the cumulative gas used in the block containing the transaction receipt as of immediately after the transaction has happened</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>logs</code></td>
+<td>the set of logs created through execution of the transaction</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>logsBloom</code></td>
+<td>the Bloom filter composed from information in those logs</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<h4 id="block-format_1">Block Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>parentHash</code></td>
+<td>The Keccak 256-bit hash of the parent block’s header, in its entirety</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>ommersHash</code></td>
+<td>The Keccak 256-bit hash of the ommers list portion of this block</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>beneficiary</code></td>
+<td>The 160-bit address to which all fees collected from the successful mining of this block be transferred</td>
+<td>20 bytes</td>
+</tr>
+<tr>
+<td><code>stateRoot</code></td>
+<td>The Keccak 256-bit hash of the root node of the state trie, after all transactions are executed and finalisations applied</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>transactionsRoot</code></td>
+<td>The Keccak 256-bit hash of the root node of the trie structure populated with each transaction in the transactions list portion of the block</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>receiptsRoot</code></td>
+<td>The Keccak 256-bit hash of the root node of the trie structure populated with the receipts of each transaction in the transactions list portion of the block</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>logsBloom</code></td>
+<td>The Bloom filter composed from indexable information (logger address and log topics) contained in each log entry from the receipt of each transaction in the transactions list</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>difficulty</code></td>
+<td>A scalar value corresponding to the difficulty level of this block. This can be calculated from the previous block’s difficulty level and the timestamp.</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>number</code></td>
+<td>A scalar value equal to the number of ancestor blocks. The genesis block has a number of zero</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>timestamp</code></td>
+<td>A scalar value equal to the reasonable output of Unix’s <code>time()</code> at this block’s inception</td>
+<td>4 bytes?</td>
+</tr>
+<tr>
+<td><code>extraData</code></td>
+<td>An arbitrary byte array containing data relevant to this block. This must be 32 bytes or fewer</td>
+<td>0-32 bytes</td>
+</tr>
+<tr>
+<td><code>mixHash</code></td>
+<td>A 256-bit hash which proves combined with the nonce that a sufficient amount of computation has been carried out on this block</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>ommerBlockHeaders</code></td>
+<td>A list of ommer block headers (of the same format as everything above in this table)</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>transactions</code></td>
+<td>a series of the transactions</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-characteristics_1">Security Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: None. All information in the Ethereum state machine
+is public. Confidentiality is achieved by hashing data and placing it in the
+blockchain or storing a pointer to off-chain data.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Mirroring. In general, all non-generatable
+information is highly mirrored and available at all times. It may be true that
+some of the more recent information cannot be trusted until more block
+verifications are performed. There is also the possibility of not having to
+store all of the state machine transitions via a Simplified Payment
+Verification by only downloading the Patricia Merkle Tree block headers and
+verifying those, leading to light client implementations.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: Multiple block verifications. Information is accurate given
+no long forks in the Merkle Patricia tree. Integrity cannot be strongly
+trusted until at least 7+ verifications have been performed.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Digital signatures. All transactions are digitally
+signed and are thus non-repudiable.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: Ethereum state machine and transition functions. All state
+machine transitions can be traced by replaying each state and set of inputs
+(both external and internal) to the Ethereum state machine.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Random identifiers, transaction identifiers, or contract
+addresses may be used as identifiers each of them having a certain level of
+pseudonymity. Pseudonymity may be compromised via other data associated with
+the random identifier in the Ethereum state machine or court orders to Bitcoin
+money transmitters and/or BTC to ETH gateways.</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: None. All information in the Ethereum state
+machine is public. Selective disclosure could theoretically be achieved via
+symmetric key encryption, but due to the permanent nature of the Ethereum
+state machine transitions and the impermanent nature of cryptographic
+protection, storing encrypted information directly in the Ethereum state
+machine is ill advised.</p>
+</li>
+</ul>
+<h3 id="performance-characteristics_1">Performance Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Consistency</code></strong>: Multiple block verifications. Eventual consistency is
+guaranteed through multiple block verifications. Consistency of a freshly
+committed block cannot be highly trusted until between 6-10 confirmations
+(20-60 minutes after the first verification).</p>
+</li>
+<li>
+<p><strong><code>System Availability</code></strong>: Multiple block verifications. Transactions are
+not verified to a high degree of certainty until between 20 to 60 minutes
+after the transaction occurs.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: Longest chain wins. Eventual consistency during
+arbitrary network partitioning. Mining allocation may cause one network
+partition to gain blocks at a faster rate than other partitions. In these
+cases, transactions are not very tolerant to failure depending on which
+network partition a transaction is written to.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: Block size, proof algorithm, and protocol GHOST and
+CASPER. Maximum transaction speed is currently around 7-10 transactions per
+second with a 1.7KB block size. Testnet has achieved 10-20 transactions per
+second. Predicted future rates range between 10,000 to 100,000 transactions
+per second.</p>
+</li>
+<li>
+<p><strong><code>Latency</code></strong>: Multiple block verifications. Roughly 12-40 seconds to
+propagate a transaction to 95% of all nodes. Transaction verifications take
+between 20 to 60 minutes after a transaction occurs to be strongly trusted.</p>
+</li>
+</ul>
+<h3 id="notable-features_1">Notable Features</h3>
+<ul>
+<li>
+<p><strong><code>Contracts with a Turing-complete Programming Language</code></strong>: Executable code
+that runs in the Ethereum state machine moving Ether and data around the state
+machine. Ethereum Virtual Machine is turing-complete, allowing any program to
+be written and executed.</p>
+</li>
+<li>
+<p><strong><code>Asynchronous Multisignatures</code></strong>: Enables multi-signatures to be performed
+asynchronously vs. Bitcoins requirement for a synchronous multi-signature (all
+signatures must be submitted at the same time requiring out of band
+coordination).</p>
+</li>
+<li>
+<p><strong><code>Gas Fees</code></strong>: Turing-complete languages create systems with halting
+problems (systems that could possibly execute a program forever - in an
+endless loop, for example). Gas fees enforce an upper-bound on Contract
+execution cost. Once a Contract’s gas runs out, it stops running, thus solving
+the halting problem in Ethereum.</p>
+</li>
+</ul>
+<h2 id="stellar">Stellar</h2>
+<h3 id="data-structures_2">Data Structures</h3>
+<h4 id="ledgerheader-format">LedgerHeader Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ledgerVersion</code></td>
+<td>The protocol version of the ledger</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>previousLedgerHash</code></td>
+<td>Hash of the previous ledger header</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>scpValue</code></td>
+<td>What consensus agreed to</td>
+<td>808 bytes</td>
+</tr>
+<tr>
+<td><code>txSetResultHash</code></td>
+<td>The TransactionResultSet that led to this ledger</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>bucketListHash</code></td>
+<td>Hash of the ledger state</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>ledgerSeq</code></td>
+<td>Sequence number of this ledger</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>totalCoins</code></td>
+<td>Total number of stroops in existence. There are 10,000,000 stroops in 1 Stellar (XLM) - 1 Stellar is the unit of currency (e.g. U.S. Dollars).</td>
+<td>8  bytes</td>
+</tr>
+<tr>
+<td><code>feePool</code></td>
+<td>Fees burned since last inflation run</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>inflationSeq</code></td>
+<td>Inflation sequence number</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>idPool</code></td>
+<td>Last used global ID, used for generating objects</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>baseFee</code></td>
+<td>Base fee per operation in stroops</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>baseReserve</code></td>
+<td>Account base reserve in stroops</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>maxTxSetSize</code></td>
+<td>Maximum size a transaction set can be</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>skipList</code></td>
+<td>Hashes of ledgers in the past. allows you to jump back in time without walking the chain back ledger by ledger each slot contains the oldest ledger that is mod of either 50  5000  50000 or 500000 depending on index skipList[0] mod(50), skipList[1] mod(5000), etc.</td>
+<td>128 bytes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="account-format_1">Account Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>accountID</code></td>
+<td>Master public key for this account</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>balance</code></td>
+<td>Account balance in stroops</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>seqNum</code></td>
+<td>Last sequence number used for this account</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>numSubEntries</code></td>
+<td>Number of sub-entries this account has drives the reserve</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>inflationDest</code></td>
+<td>Account to vote for during inflation</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>flags</code></td>
+<td>Flags set on issuer accounts. TrustLines are created with authorized set to "false" requiring the issuer to set it for each TrustLine. Values may be <code>AUTH_REQUIRED_FLAG</code> (if set, the authorized flag in TrustLines can be cleared), otherwise, authorization cannot be revoked and the flag is <code>AUTH_REVOCABLE_FLAG</code>. If <code>AUTH_IMMUTABLE_FLAG</code> is set, causes all <code>AUTH_*</code> flags to be read-only.</td>
+<td>4-bytes</td>
+</tr>
+<tr>
+<td><code>homeDomain</code></td>
+<td>Can be used for reverse federation and memo lookup</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>thresholds</code></td>
+<td>Stores unsigned bytes: [weight of <code>master</code>:<code>low</code>:<code>medium</code>:<code>high</code>]</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>signers</code></td>
+<td>Possible signers for this account</td>
+<td>36 bytes per signer (720 bytes total)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="transaction-format_1">Transaction Format</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sourceAccount</code></td>
+<td>Account used to run the transaction</td>
+<td>32 bytes</td>
+</tr>
+<tr>
+<td><code>fee</code></td>
+<td>The fee the sourceAccount will pay</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td><code>seqNum</code></td>
+<td>Sequence number to consume in the account</td>
+<td>8 bytes</td>
+</tr>
+<tr>
+<td><code>timeBounds</code></td>
+<td>Validity range (inclusive) for the last ledger close time</td>
+<td>4 bytes (pointer to 16 byte data structure)</td>
+</tr>
+<tr>
+<td><code>memo</code></td>
+<td>Extra data carried along with the transaction.</td>
+<td>0-32 bytes</td>
+</tr>
+<tr>
+<td><code>operations</code></td>
+<td>Up to 100 operations associated with this transaction.</td>
+<td>8-N bytes (dependent on op code)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-characteristics_2">Security Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: None. All information in the Stellar ledger is
+public. Confidentiality is achieved by hashing data and placing it in the
+blockchain or storing a pointer to off-chain data.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Mirroring. In general, all non-generatable
+information is highly mirrored and available at all times. It may be true that
+some of the more recent information cannot be trusted until at least one block
+confirmation can be done, which is a great improvement over permissionless
+ledgers at the cost of having to trust a set of nodes in the network.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: A single block verification. Information is accurate when a
+ballot produces a new block.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Digital signatures. All transactions are digitally
+signed and are thus non-repudiable.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: All transactions (instructions to the ledger) are
+digitally signed. A replay of all transactions results in a full understanding
+of a particular state’s provenance.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Public keys are the primary identification mechanism in
+the system and provide a certain level of pseudonymity. Court orders to
+Stellar to fiat currency gateways can uncover the true identity of a person
+using the system.</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: None. All information in the Stellar ledger is
+public. Selective disclosure could theoretically be achieved via symmetric key
+encryption, but due to the permanent nature of the Stellar ledger and the
+impermanent nature of cryptographic protection, storing encrypted information
+directly in the Stellar ledger is ill advised.</p>
+</li>
+</ul>
+<h3 id="performance-characteristics_2">Performance Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Consistency</code></strong>: A single block verification. A single block verification
+can be propagated in a number of seconds (12 seconds on average to reach 95%
+of all nodes, up to 40 seconds to reach the other 5%).</p>
+</li>
+<li>
+<p><strong><code>System Availability</code></strong>: A single block verification. Requests are
+typically answered in under a minute.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: Stellar Consensus Protocol. As long as trust lines
+are allocated to maximize network connectivity, consensus will be achieved
+even in the event of multiple node failures and network partitions. If, for
+example, half of the network is separated from the other, the consensus
+protocol no longer works but the likelihood of an event of that nature is
+highly improbable.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: Stellar Consensus Protocol. A single block can store 4
+billion transactions, each with 100 transaction operations. The system is
+theoretically capable of performing thousands of transactions per second with
+the primary limiting factor being network speed and latency.</p>
+</li>
+<li>
+<p><strong><code>Latency</code></strong>: A single block verification. A single block verification can
+be propagated in a number of seconds (12 seconds on average to reach 95% of
+all nodes, up to 40 seconds to reach the other 5%).</p>
+</li>
+</ul>
+<h3 id="notable-features_2">Notable Features</h3>
+<ul>
+<li>
+<p><strong><code>Stellar Consensus Protocol</code></strong>: An algorithm with a mathematical proof of
+correctness for reaching consensus using quorum slices and assuming a certain
+level of network connectivity.</p>
+</li>
+<li>
+<p><strong><code>Trust Lines</code></strong>: The consensus mechanism in Stellar requires that an
+entity running a node specify the other nodes in the system that it trusts.
+This design choice results in a much faster consensus algorithm (instead of
+using proof-of-work and proof-of-stake) with the drawback of making the system
+permissioned instead of permission-less.</p>
+</li>
+</ul>
+<h2 id="ipfs">IPFS</h2>
+<h3 id="data-structures_3">Data Structures</h3>
+<h4 id="object-merkle-dag-ipfslink">Object Merkle DAG - IPFSLink</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Name</code></td>
+<td>Name or alias of link.</td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><code>Hash</code></td>
+<td>Cryptographic hash of target.</td>
+<td><code>Multihash</code></td>
+</tr>
+<tr>
+<td><code>Size</code></td>
+<td>Total size of target.</td>
+<td><code>int</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="object-merkle-dag-ipfsobject">Object Merkle DAG - IPFSObject</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>links</code></td>
+<td>Array of links.</td>
+<td>Array of IPFSLinks</td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td>Opaque content data.</td>
+<td>Array of bytes</td>
+</tr>
+</tbody>
+</table>
+<h4 id="other">Other</h4>
+<p>Merkle DAG (directed acyclic graph) structures can be used to build many types
+of other systems. Specialized structures exist for encrypted data, signed data,
+and a number of versioned file system primitives.</p>
+<h3 id="security-characteristics_3">Security Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: Hash-based obfuscation and encryption (limited
+confidentiality). All information in the DHT is available to the peer-to-peer
+network. Confidentiality may be achieved by using EncryptedObjects or storing
+a pointer to data outside of IPFS.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Peer-to-peer mirroring. The DHT and Merkle
+DAG store data addressed by content hash. Various peer-to-peer strategies can
+be used to find, send, receive, and store data.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: Hash-based content-addressing. Content is stored in a
+Merkle DAG and addressed by content hash. Individual data blocks can be
+verified for hash correctness. Completeness of all data depends on having a
+correct root with links to all data.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Digital signatures. Data can be digitally signed and
+thus non-repudiable.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: Digital signatures and data versioning. While not a core
+part of IPFS, these concepts could be layered on top to provide needed
+provenance features.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Public keys. Nodes use identities built from public keys
+which could expose information about the person if cross-correlated. Data
+itself is opaque and addressed by content hash. Without a known hash it may be
+difficult to find and expose arbitrary data from the network.</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: None. All information in the DHT is public.
+Selective disclosure could theoretically be achieved via symmetric key
+encryption, but due to the permanent nature of the hashed data and the
+impermanent nature of cryptographic protection, storing encrypted information
+directly in the DHT is ill advised. Some protection is provided as it is
+unlikely unknown peers would request arbitrary data by its specific hash value.</p>
+</li>
+</ul>
+<h3 id="performance-characteristics_3">Performance Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Consistency</code></strong>: Peer-to-peer mirroring. Peer-to-peer network can be used
+to ensure consistency between all network peers of required immutable data.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: The peer-to-peer network is resistant to failure
+when data is available from many peers and some network connectivity is
+available.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: BitSwap peer-to-peer protocol is similar to protocols
+such as BitTorrent. Network topology, data locality, and BitSwap strategies
+that peers use will will have an effect on scalability.</p>
+</li>
+</ul>
+<h3 id="notable-features_3">Notable Features</h3>
+<ul>
+<li>
+<p><strong><code>IPNS</code></strong>: Mutable naming system to compliment immutable IPFS objects.
+Allows for easier human naming and references.</p>
+</li>
+<li>
+<p><strong><code>Flexible Components</code></strong>: Components of the system can be changed depending
+on performance, security, and other considerations. Standard interfaces allow
+for changing of naming, data exchange, routing, and network transport
+components.</p>
+</li>
+</ul>
+<h2 id="blockstack">Blockstack</h2>
+<h3 id="data-structures_4">Data Structures</h3>
+<h4 id="base-name-record-format">Base Name Record Format</h4>
+<ul>
+<li>
+<p><strong><code>name</code></strong>: the name itself</p>
+</li>
+<li>
+<p><strong><code>value_hash</code></strong>: the hash of the name's associated profile</p>
+</li>
+<li>
+<p><strong><code>sender</code></strong>: the scriptPubKey hex that owns this name (identifies ownership)</p>
+</li>
+<li>
+<p><strong><code>sender_pubkey</code></strong>: (OPTIONAL) the public key</p>
+</li>
+<li>
+<p><strong><code>address</code></strong>: the address of the sender</p>
+</li>
+<li>
+<p><strong><code>block_number</code></strong>: the block number when this name record was created
+(preordered for the first time)</p>
+</li>
+<li>
+<p><strong><code>preorder_block_number</code></strong>: the block number when this name was last
+preordered</p>
+</li>
+<li>
+<p><strong><code>first_registered</code></strong>: the block number when this name was registered by
+the current owner</p>
+</li>
+<li>
+<p><strong><code>last_renewed</code></strong>: the block number when this name was renewed by the
+current owner</p>
+</li>
+<li>
+<p><strong><code>revoked</code></strong>: whether or not the name is revoked</p>
+</li>
+<li>
+<p><strong><code>op</code></strong>: byte sequence describing the last operation to affect this name</p>
+</li>
+<li>
+<p><strong><code>txid</code></strong>: the ID of the last transaction to affect this name</p>
+</li>
+<li>
+<p><strong><code>vtxindex</code></strong>: the index in the block of the transaction.</p>
+</li>
+<li>
+<p><strong><code>op_fee</code></strong>: the value of the last Blockstack-specific burn fee paid for
+this name (i.e. from preorder or renew)</p>
+</li>
+<li>
+<p><strong><code>importer</code></strong>: (OPTIONAL) if this name was imported, this is the importer's
+scriptPubKey hex</p>
+</li>
+<li>
+<p><strong><code>importer_address</code></strong>: (OPTIONAL) if this name was imported, this is the
+importer's address</p>
+</li>
+</ul>
+<h4 id="base-namespace-format">Base Namespace Format</h4>
+<ul>
+<li>
+<p><strong><code>namespace_id</code></strong>: human-readable namespace ID</p>
+</li>
+<li>
+<p><strong><code>namespace_id_hash</code></strong>: hash(namespace_id,sender,reveal_addr) from the
+preorder (binds this namespace to its preorder)</p>
+</li>
+<li>
+<p><strong><code>version</code></strong>: namespace rules version</p>
+</li>
+<li>
+<p><strong><code>sender</code></strong>: the scriptPubKey hex script that identifies the preorderer</p>
+</li>
+<li>
+<p><strong><code>sender_pubkey</code></strong>: if sender is a p2pkh script, this is the public key</p>
+</li>
+<li>
+<p><strong><code>address</code></strong>: address of the sender, from the scriptPubKey</p>
+</li>
+<li>
+<p><strong><code>recipient</code></strong>: the scriptPubKey hex script that identifies the revealer.</p>
+</li>
+<li>
+<p><strong><code>recipient_address</code></strong>: the address of the revealer</p>
+</li>
+<li>
+<p><strong><code>block_number</code></strong>: block number at which this namespace was preordered</p>
+</li>
+<li>
+<p><strong><code>reveal_block</code></strong>: block number at which this namespace was revealed</p>
+</li>
+<li>
+<p><strong><code>op</code></strong>: byte code identifying this operation to Blockstack</p>
+</li>
+<li>
+<p><strong><code>txid</code></strong>: transaction ID at which this namespace was revealed</p>
+</li>
+<li>
+<p><strong><code>vtxindex</code></strong>: the index in the block where the tx occurs</p>
+</li>
+<li>
+<p><strong><code>lifetime</code></strong>: how long names last in this namespace (in number of blocks)</p>
+</li>
+<li>
+<p><strong><code>coeff</code></strong>: constant multiplicative coefficient on a name's price</p>
+</li>
+<li>
+<p><strong><code>base</code></strong>: exponential base of a name's price</p>
+</li>
+<li>
+<p><strong><code>buckets</code></strong>: array that maps name length to the exponent to which to raise
+'base' to</p>
+</li>
+<li>
+<p><strong><code>nonalpha_discount</code></strong>: multiplicative coefficient that drops a name's
+price if it has non-alpha characters</p>
+</li>
+<li>
+<p><strong><code>no_vowel_discount</code></strong>: multiplicative coefficient that drops a name's
+price if it has no vowels</p>
+</li>
+</ul>
+<h4 id="name-import-format">Name Import Format</h4>
+<ul>
+<li>
+<p><a href="#base-namespace-format"><strong><code>NameRecordFields</code></strong></a>: All of the base Name
+Record Format fields</p>
+</li>
+<li>
+<p><strong><code>recipient</code></strong>: scriptPubKey hex that identifies the name recipient</p>
+</li>
+<li>
+<p><strong><code>recipient_address</code></strong>: address of the recipient</p>
+</li>
+</ul>
+<h4 id="namespace-preorder-format">Namespace Preorder Format</h4>
+<ul>
+<li>
+<p><strong><code>namespace_id_hash</code></strong>: hash(namespace_id,sender,reveal_addr)</p>
+</li>
+<li>
+<p><strong><code>consensus_hash</code></strong>: consensus hash at the time issued</p>
+</li>
+<li>
+<p><strong><code>op</code></strong>: bytecode describing the operation (not necessarily 1 byte)</p>
+</li>
+<li>
+<p><strong><code>op_fee</code></strong>: fee paid for the namespace to the burn address</p>
+</li>
+<li>
+<p><strong><code>txid</code></strong>: transaction ID</p>
+</li>
+<li>
+<p><strong><code>vtxindex</code></strong>: the index in the block where the tx occurs</p>
+</li>
+<li>
+<p><strong><code>block_number</code></strong>: block number at which this transaction occurred</p>
+</li>
+<li>
+<p><strong><code>sender</code></strong>: scriptPubKey hex from the principal that issued this preorder
+(identifies the preorderer)</p>
+</li>
+<li>
+<p><strong><code>sender_pubkey</code></strong>: if sender is a p2pkh script, this is the public key</p>
+</li>
+<li>
+<p><strong><code>address</code></strong>: address from the scriptPubKey</p>
+</li>
+</ul>
+<h4 id="namespace-reveal-format">Namespace Reveal Format</h4>
+<ul>
+<li><a href="#base-namespace-format"><strong><code>NamespaceFields</code></strong></a>: All of the base Name Record
+Format fields</li>
+</ul>
+<h4 id="namespace-ready-format">Namespace Ready Format</h4>
+<ul>
+<li>
+<p><a href="#base-namespace-format"><strong><code>NamespaceFields</code></strong></a>: All of the base Name Record
+Format fields</p>
+</li>
+<li>
+<p><strong><code>ready_block</code></strong>: block number at which the namespace was readied</p>
+</li>
+</ul>
+<h4 id="name-preorder-format">Name Preorder Format</h4>
+<ul>
+<li>
+<p><strong><code>preorder_name_hash</code></strong>: hash(name,sender,register_addr)</p>
+</li>
+<li>
+<p><strong><code>consensus_hash</code></strong>: consensus hash at time of send</p>
+</li>
+<li>
+<p><strong><code>sender</code></strong>: scriptPubKey hex that identifies the principal that issued the
+preorder</p>
+</li>
+<li>
+<p><strong><code>sender_pubkey</code></strong>: if sender is a pubkeyhash script, then this is the 
+public key</p>
+</li>
+<li>
+<p><strong><code>address</code></strong>: address from the sender's scriptPubKey</p>
+</li>
+<li>
+<p><strong><code>block_number</code></strong>: block number at which this name was preordered for the 
+first time</p>
+</li>
+<li>
+<p><strong><code>op</code></strong>: blockstack bytestring describing the operation</p>
+</li>
+<li>
+<p><strong><code>txid</code></strong>: transaction ID</p>
+</li>
+<li>
+<p><strong><code>vtxindex</code></strong>: the index in the block where the tx occurs</p>
+</li>
+<li>
+<p><strong><code>op_fee</code></strong>: blockstack fee (sent to burn address)</p>
+</li>
+</ul>
+<h4 id="name-registration-format">Name Registration Format</h4>
+<ul>
+<li>
+<p><a href="#base-name-record-format"><strong><code>NameRecordFields</code></strong></a>: All of the base Name
+Record Format fields</p>
+</li>
+<li>
+<p><strong><code>recipient</code></strong>: scriptPubKey hex script that identifies the principal to
+own this name</p>
+</li>
+<li>
+<p><strong><code>recipient_address</code></strong>: principal's address from the scriptPubKey in the
+transaction</p>
+</li>
+</ul>
+<h4 id="name-revoke-format">Name Revoke Format</h4>
+<ul>
+<li><a href="#base-name-record-format"><strong><code>NameRecordFields</code></strong></a>: All of the base Name
+Record Format fields</li>
+</ul>
+<h4 id="name-transfer-format">Name Transfer Format</h4>
+<ul>
+<li>
+<p><a href="#base-name-record-format"><strong><code>NameRecordFields</code></strong></a>: All of the base Name
+Record Format fields</p>
+</li>
+<li>
+<p><strong><code>name_hash</code></strong>: hash(name)</p>
+</li>
+<li>
+<p><strong><code>consensus_hash</code></strong>: consensus hash when this operation was sent</p>
+</li>
+<li>
+<p><strong><code>keep_data</code></strong>: whether or not to keep the profile data associated with the
+name when transferred</p>
+</li>
+</ul>
+<h4 id="name-update-format">Name Update Format</h4>
+<ul>
+<li>
+<p><a href="#base-name-record-format"><strong><code>NameRecordFields</code></strong></a>: All of the base Name
+Record Format fields</p>
+</li>
+<li>
+<p><strong><code>name_hash</code></strong>: hash(name,consensus_hash)</p>
+</li>
+<li>
+<p><strong><code>consensus_hash</code></strong>: consensus hash when this update was sent</p>
+</li>
+</ul>
+<h3 id="security-characteristics_4">Security Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: None. All information in the Bitcoin blockchain and
+Blockstack virtualchain is public. Confidentiality could achieved by hashing
+data and placing it in either blockchain, but the system is not designed or
+intended to preserve confidentiality.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Block mirroring. In general, all information
+is highly mirrored and available at all times. It may be true that some of the
+more recent information cannot be trusted until more block verifications are
+performed.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: Multiple block verifications. Information is accurate given
+no blockchain forks. Integrity cannot be strongly trusted until at least 6+
+verifications have been performed.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Digital signatures. All transactions are digitally
+signed and are thus non-repudiable.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: At the Bitcoin layer via transaction inputs and outputs;
+all transactions can be traced using block inputs and outputs. At the
+Blockstack layer each virtualchain entry can be traced back to the Bitcoin
+block it came from.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Bitcoin: public keys are used as identifiers;
+Blockstack: pseudonyms in .id namespace. All Bitcoin transactions use public
+keys as identifiers (not legal names or identifiers). Pseudonymity may be
+compromised via court orders to Bitcoin money transmitters to determine who
+paid for particular inputs on Blockstack transactions. Blockstack entries in
+the .id namespace are pseudonyms, but publication of personally identifiable
+information is common practice typically leading to invalidation of
+pseudonymity.</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: Bitcoin: None; Blockstack: encrypted data at
+secret locations. All information in the Bitcoin blockchain and Blockstack
+virtual chain and storage layer is public. Selective disclosure could
+theoretically be achieved via symmetric key encryption, but due to the
+permanent nature of the Bitcoin blockchain and Blockstack virtualchain and the
+impermanent nature of cryptographic protection, storing encrypted information
+directly on the Bitcoin blockchain or on the Blockstack virtualchain/storage
+layer is ill advised. Blockstack profiles do have a mechanism where hashed
+information may be stored at known locations and where access may be provided
+to select entities with specific access keys.</p>
+</li>
+</ul>
+<h3 id="performance-characteristics_4">Performance Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Consistency</code></strong>: Multiple block verifications. Eventual consistency is
+guaranteed through multiple block verifications. Consistency of a freshly
+committed block cannot be highly trusted until between 30 to 60 minutes after
+the transaction.</p>
+</li>
+<li>
+<p><strong><code>System Availability</code></strong>: Multiple block verifications. Transactions are
+not verified to a high degree of certainty until between 30 to 60 minutes
+after the transaction occurs.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: Longest chain wins. Eventual consistency during
+arbitrary network partitioning. Mining allocation may cause one network
+partition to gain blocks at a faster rate than other partitions. In these
+cases, transactions are not very tolerant to failure depending on which
+network partition a transaction is written to.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: Block size. Transaction speed is currently set at 7
+transactions per second with a 1MB block size.</p>
+</li>
+<li>
+<p><strong><code>Latency</code></strong>: Multiple block verifications. Transaction verifications take
+between 30 to 60 minutes after a transaction occurs to be verified.</p>
+</li>
+</ul>
+<h3 id="notable-features_4">Notable Features</h3>
+<ul>
+<li>
+<p><strong><code>Fast Bootstrapping</code></strong>: Utilizes log checkpoints and skip lists to provide
+fast bootstrapping/auditing for new nodes in the network (called Simple Name
+Verification). Use of SNV provides new node bootup times of 1-2 hours vs. 2-4
+days without SNV.</p>
+</li>
+<li>
+<p><strong><code>Virtualchain</code></strong>: Layering a virtualized blockchain on top of an existing
+blockchain (e.g. Blockstack on top of Bitcoin)</p>
+</li>
+<li>
+<p><strong><code>Separation of Control/Routing/Data planes</code></strong>: Separation of control plane
+(Bitcoin blockchain / Blockstack Virtualchain) from routing (DHT) from storage
+(S3, IPFS, etc.)</p>
+</li>
+</ul>
+<h2 id="hashgraph">Hashgraph</h2>
+<h3 id="data-structures_5">Data Structures</h3>
+<p>No implementation of hashgraph was available, so the hashgraph datastructure,
+per the whitepaper is summarized below.</p>
+<h4 id="gossip-event">Gossip Event</h4>
+<p>The hashgraph consensus mechanism uses a gossip protocol. Whenever a member of
+the hashgraph receives new information, it chooses another member at random and
+communicates that information to it. This is called a “gossip event” and it is
+stored a sequence of bytes that is digitally signed by its creator.</p>
+<ul>
+<li>
+<p><strong><code>peer_id</code></strong>: The network identifier for the peer that was gossipped with.</p>
+</li>
+<li>
+<p><strong><code>self_parent_hash</code></strong>: The hash of the last local event prior to this one.</p>
+</li>
+<li>
+<p><strong><code>other_parent_hash</code></strong>: The hash of the peer’s last event prior to this one.</p>
+</li>
+<li>
+<p><strong><code>payload</code></strong>: An optional list of transactions created in this event.</p>
+</li>
+<li>
+<p><strong><code>timestamp</code></strong>: Date and time of event creation.</p>
+</li>
+<li>
+<p><strong><code>key_identifer</code></strong>: Identifier for the key that can verify the digital
+signature.</p>
+</li>
+<li>
+<p><strong><code>signature_algorithm</code></strong>: Algorithm for the digital signature.</p>
+</li>
+<li>
+<p><strong><code>signature</code></strong>: The digital signature value.</p>
+</li>
+</ul>
+<h3 id="security-characteristics_5">Security Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Confidentiality</code></strong>: None. All information in the hashgraph is public.
+Confidentiality could achieved by hashing data and placing only the hash in
+the hashgraph (within a transaction), but the system is not designed or
+intended to preserve confidentiality.</p>
+</li>
+<li>
+<p><strong><code>Information Availability</code></strong>: Configurable. In general, all information is
+highly mirrored and available at all times. However, hashgraph can also be
+implemented such that only the effects of the transactions in a block need to
+be remembered, the transactions themselves can be destroyed. Another option
+uses signed states to allow events to be destroyed as well.</p>
+</li>
+<li>
+<p><strong><code>Integrity</code></strong>: Consensus guaranteed with probability one and cannot be
+changed once reached. Once a transaction enters the system, it cannot be
+delayed and will be recorded in an order that cannot manipulated by
+individuals. Shortly after recording, due to the gossip protocol, every member
+will know the transaction’s place in history and that every other member also
+knows the same place.</p>
+</li>
+<li>
+<p><strong><code>Non-repudiation</code></strong>: Digital signatures. All events/transactions are
+digitally signed and are thus non-repudiable.</p>
+</li>
+<li>
+<p><strong><code>Provenance</code></strong>: The hashgraph is a history of all of the gossip events
+that occurred in the network, in the order they occurred. Every event can be
+traced back via ancestor hashes. However, the system also allows for event
+payloads to be discarded, which would disallow tracking of individual
+transactions. Another option also allows for events themselves to be destroyed
+via signed states.</p>
+</li>
+<li>
+<p><strong><code>Pseudonymity</code></strong>: Identifiers for parties to the transactions are
+unspecified in the consensus algorithm. Pseudonymity could be implemented as a
+separate layer.</p>
+</li>
+<li>
+<p><strong><code>Selective Disclosure</code></strong>: All information in the hashgraph is public and
+highly mirrored. Selective disclosure could theoretically be achieved via
+encryption, but due to the permanent nature of the hashgraph and the
+impermanent nature of cryptographic protection, storing encrypted information
+directly in the hashgraph event payloads is ill advised. The hashgraph
+consensus algorithm does allow the payloads to be destroyed with no influence
+upon the consensus algorithm, but the information would still have been made
+public and gossipped across the entire network.</p>
+</li>
+</ul>
+<h3 id="performance-characteristics_5">Performance Characteristics</h3>
+<ul>
+<li>
+<p><strong><code>Consistency</code></strong>: Eventual consensus guaranteed with probability one and
+cannot be changed once reached. Once a transaction enters the system, it
+cannot be delayed and will be recorded in an order that cannot manipulated by
+individuals. When members have different versions of the hashgraph, consensus
+is reached via virtual voting (zero bandwidth required) in a few minutes with
+no proof-of-work. Attackers must control less than one third of network.</p>
+</li>
+<li>
+<p><strong><code>System Availability</code></strong>: Gossip protocol and virtual voting ensures quick
+success/failure indication. Eventual consensus guaranteed with probability
+one; forks are not possible under normal operation. Attackers cannot stop
+message recording other than by eliminating internet access. DoS Resistant
+without proof-of-work.</p>
+</li>
+<li>
+<p><strong><code>Failure Tolerance</code></strong>: Strong Byzantine fault tolerance. Network will
+continue to function properly when up to just under one third of the members
+are attackers that collude, delete, or delay messages between honest members
+with no bounds on delays. Consensus algorithm is asynchronous,
+nondeterministic, and achieves Byzantine agreement with probability one.</p>
+</li>
+<li>
+<p><strong><code>Scalability</code></strong>: Bandwidth. System is only limited by the amount of
+bandwidth available to its members. Using a few megabits per second (typical
+home connection) the network can support 4,000 transactions per second. Only
+2-4% overhead added to messages for hashgraph protocol.</p>
+</li>
+<li>
+<p><strong><code>Latency</code></strong>: Low. Virtual voting allows consensus to occur without network
+communication. Communication of the hashgraph via the gossip protocol has low
+overhead and gossip spreads exponentially amongst members. Events and
+transactions can be discarded if desired whilst preserving consensus state.</p>
+</li>
+</ul>
+<h3 id="notable-features_5">Notable Features</h3>
+<ul>
+<li>
+<p><strong><code>Proof-of-stake</code></strong>: The voting power for each member does not have to be
+equal; members could be given more power based on trust, based on number of
+coins, or a system could allow power to be split when inviting new members.</p>
+</li>
+<li>
+<p><strong><code>Signed State</code></strong>: Every time consensus is reached following a voting
+round, the state of the hashgraph can be considered immutable up to that
+round. This state can digitally signed and gossipped amongst members. Once
+more than two-thirds of the population have collected signatures, the
+information used to generate the state can be destroyed and the state can be
+used as a new starting point.</p>
+</li>
+</ul>
+<hr />
+<pre><code>This document, a part of the &quot;Credentials on Public/Private Linked Ledgers&quot;
+project, has been funded in part by the United States Department of Homeland
+Security's Science and Technology Directorate under contract HSHQDC-16-C-00058.
+The content of this document does not necessarily reflect the position or the
+policy of the U.S. Government and no official endorsement should be inferred.
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
