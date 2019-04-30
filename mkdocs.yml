@@ -1,1 +1,3 @@
-site_name: My Docs
+site_name: RWoT DB Launchpad
+site_dir: ../site
+docs_dir: ./docs
