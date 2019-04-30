@@ -12,7 +12,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * A specific problem that they wanted to solve with a web-of-trust solution, and why current solutions (PGP or CA-based PKI) can't address the problem?
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
-Please see the [Advance Readings README](topics-and-advance-readings/README.md) for a listing of all of the papers.
+Please see the [Advance Readings README](topics-and-advance-readings) for a listing of all of the papers.
 
 ## Completed Papers
 

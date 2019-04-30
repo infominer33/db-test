@@ -85,4 +85,4 @@ If we can meet this goal, we can make our design ideas into reality.
 
 ## License
 
-All of the contents of this directory are licensed [Creative Commons CC-BY](LICENSE-CC-BY-4.0.md) their contributors.
+All of the contents of this directory are licensed [Creative Commons CC-BY](LICENSE-CC-BY-4.0) their contributors.
