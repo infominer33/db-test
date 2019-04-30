@@ -24,7 +24,7 @@ This is a _controversial_ part of the model.
 
 *Witness.* Another form of subsidiary issuer.
 
-See [the full paper](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf)
+See [the full paper](../../../rwot1/topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf)
 
 See [the use cases](http://w3c.github.io/webpayments-ig/VCTF/use-cases/)
 

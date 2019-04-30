@@ -26,7 +26,7 @@ What is meant mean by a "Permanent Open Trust Network"?  Here we refer to a perm
 
 Trust Exchange is an emerging protocol being developed by my colleagues and I at [Citizen Code](http://www.citizencode.io/) and [Enlightened Structure](http://www.enlightenedstructure.net/), which seeks to address the feature set above, incorporating other open source components wherever possible, and building the remaining pieces from scratch.
 
-For a gentle introduction, see Noah Thorp's excellent article [Decentralized Cooperation needs Decentralized Reputation](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation.md); or for the more technically minded, see the early work on an open source [reference implementation](https://github.com/citizencode/trust-exchange).
+For a gentle introduction, see Noah Thorp's excellent article [Decentralized Cooperation needs Decentralized Reputation](DecentralizedCooperationNeedsDecentralizedReputation.md); or for the more technically minded, see the early work on an open source [reference implementation](https://github.com/citizencode/trust-exchange).
 
 Here we address the technical components implied by the features listed above, and indicate the external software, or internal directions intended by Trust Exchange.
 

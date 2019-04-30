@@ -1,6 +1,4 @@
-# Welcome to another RWoT DB testing ground
-
-
+# DB Yesting
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 

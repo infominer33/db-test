@@ -34,7 +34,7 @@ Both values are important.  It is easy to see the value that comes from transpar
 
 The balance between the two values we had outlined earlier, privacy and transparency, tends to shift fluidly within communities -- and at any point in time “emerges” from the preferences and priorities of the members of the community -- in the context that they face.
 
-For instance, where community members perceive low risk, social norms will tend to demand low levels of transparency and vice versa.  Christopher Allen’s white paper on [Progressive Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/progressive-trust.md) lays out a detailed example that draws in many of the tools that humans make use of for both making themselves increasingly vulnerable to one another and thereby strengthening their counterparty’s willingness to trust and interact with them.
+For instance, where community members perceive low risk, social norms will tend to demand low levels of transparency and vice versa.  Christopher Allen’s white paper on [Progressive Trust](progressive-trust.md) lays out a detailed example that draws in many of the tools that humans make use of for both making themselves increasingly vulnerable to one another and thereby strengthening their counterparty’s willingness to trust and interact with them.
 
 Consequently, there is a couple of other factors that play a role in determining the balance of privacy and transparency:
 1) The context that each actor perceives themselves to be in,
@@ -42,7 +42,7 @@ Consequently, there is a couple of other factors that play a role in determining
 3) The confidence that each actor has that their expectations will be upheld.  
 
 #####Context#####
-The assessment of context involves a variety of forms of information that contribute to that actor’s situational awareness.  A more detailed articulation of how situational awareness is developed through direct experience, indirect experience and contemplation is explored in my paper “[Identity, Guidance and Situational Awareness](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness.md).”  However, it is important to note that this assessment always takes place from the perspective of the individual themselves.  It is their perception of the situation, and not the situation itself -- that will guide their decision making about how to behave.
+The assessment of context involves a variety of forms of information that contribute to that actor’s situational awareness.  A more detailed articulation of how situational awareness is developed through direct experience, indirect experience and contemplation is explored in my paper “[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness.md).”  However, it is important to note that this assessment always takes place from the perspective of the individual themselves.  It is their perception of the situation, and not the situation itself -- that will guide their decision making about how to behave.
 
 #####Social Norms#####
 Social norms develop over time as a result of interactions amongst community members in contexts of similar form and pattern.  Through trial and error, the members of a community learn what “works” and what doesn’t.  And over time they come to expect ways of behaving that align with the methods that have proven useful in the past.

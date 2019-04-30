@@ -62,7 +62,7 @@ Creation of a workable digital identity system will require collaboration betwee
 
 **Conclusion & Call to Action**
 
-The central thesis, as well as characteristics and possible system architectures, has been described in [*other works*](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop). The benefits of a digital identity system extend beyond the theoretical, and have the potential to fundamentally improve basic conditions for *billions* of people. This paper calls for the applied effort of the development community to find ways to deliver an independent digital identity system to the developing world where the need is most pressing.
+The central thesis, as well as characteristics and possible system architectures, has been described in [*other works*](../../rwot1/). The benefits of a digital identity system extend beyond the theoretical, and have the potential to fundamentally improve basic conditions for *billions* of people. This paper calls for the applied effort of the development community to find ways to deliver an independent digital identity system to the developing world where the need is most pressing.
 
 **Author:** Wayne Hennessy-Barrett
 

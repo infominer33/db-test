@@ -69,10 +69,10 @@ Bitcoin has prided itself on letting users 'be their own bank'. Cryptocurrency c
 
 Allen, Christopher. "[Principles of Self-Sovereign Identity](https://github.com/ChristopherA/self-sovereign-identity)." 2016.
 
-Allen, Christopher and Appelcline, Shannon. "[Hierarchical Deterministic Keys: BIP32 & Beyond](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md)" 2015.
+Allen, Christopher and Appelcline, Shannon. "[Hierarchical Deterministic Keys: BIP32 & Beyond](../../rwot1/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md)" 2015.
 
-Lundkvist, Christian and Heck, Rouven. "[Questions around key management for digital identity systems](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/068c409acc117c81cf7a95e1c00f647d1557a943/topics-and-advance-readings/Identity-Property-Simulation.md)". 2015.
+Lundkvist, Christian and Heck, Rouven. "[Questions around key management for digital identity systems](../../rwot1/topics-and-advance-readings/Identity-Property-Simulation.md)". 2015.
 
-Shea, Ryan. "[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Selective-Disclosure-of-Identity.md)". 2015.
+Shea, Ryan. "[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](../../rwot1/topics-and-advance-readings/Selective-Disclosure-of-Identity.md)". 2015.
 
 Wuille, Pieter. "[Hierarchical Deterministic Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)". 2016.
