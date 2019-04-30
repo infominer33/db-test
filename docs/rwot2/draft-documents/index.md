@@ -8,8 +8,8 @@ This is a current list of white papers and specs that are expected to come out o
 | ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Final Draft    |  | [link](../final-documents/protecting-digital-identities-in-developing-countries.pdf)  | *Final*                                                       |  |
 | ***Requirements for DIDs***                                           | Drummond | Final Draft    |  | [link](../final-documents/requirements-for-dids.pdf) |*Final* |
 | ***Smarter Signatures*** | Christopher A. | Final Draft |  | [link](../final-documents/smarter-signatures.pdf) | *Final*|
-| ***HD Keys***                                       | Kiara    | Edited Draft    | Author | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md)                                                         |  Being Revised                  |
-| ***The Insecurity of Charging for Authentication*** | Greg S.  | Final Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md) |                    |
+| ***HD Keys***                                       | Kiara    | Edited Draft    | Author | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity)                                                         |  Being Revised                  |
+| ***The Insecurity of Charging for Authentication*** | Greg S.  | Final Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers) |                    |
 | ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         | Unwritten |
 | ***Self-Sovereign Identity Architecture Updates***  | Dave C.  | Drafting    | Authors | -                                                         | Pending Changes                    |
 | ***VCTF Use Cases***  | Joe A..  | Drafting    | Authors | -                                                         |                      |

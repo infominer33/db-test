@@ -6,7 +6,7 @@ By Kim Hamilton Duffy, Rodolphe Marques, Markus Sabadello
 
 Our goal was to develop working prototypes of the proposed [RSA Signature Suite 2017](https://w3c-dvcg.github.io/lds-rsa2017/) spec to answer two questions. First, is the spec sufficiently clear for implementors? Second, what is the impact to existing JSON-LD signature implementations?
 
-Existing implementors of JSON-LD signatures expressed concerns about the impact/feasibility of JSON Web Signatures, as described in [Aligning Signature Formats](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/topics-and-advance-readings/SignatureFormatAlignment.md). This working group aimed to investigate/derisk these concerns, as follows:
+Existing implementors of JSON-LD signatures expressed concerns about the impact/feasibility of JSON Web Signatures, as described in [Aligning Signature Formats](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/topics-and-advance-readings/SignatureFormatAlignment). This working group aimed to investigate/derisk these concerns, as follows:
 
 - Develop prototypes in several key languages, to ensure library support
 - Ensure minimal impact on usability of Verifiable Claims and JSON-LD signatures
@@ -31,7 +31,7 @@ The major obstacle we encountered while performing this work was the lack of JSO
 
 We created a whitepaper to describe the precise differences between existing LD signatures and the new approach.
 
-- [Signature Alignment Implementation](SignatureAlignmentImplementation.md)
+- [Signature Alignment Implementation](SignatureAlignmentImplementation)
 
 ## Next steps
 

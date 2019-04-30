@@ -1,14 +1,14 @@
 # Rebooting the Web of Trust VII (Fall 2018) Final Papers
 
-_This is a listing for the RWOT7 papers to date. [Several more](../draft-documents/README.md)] are in process._
+_This is a listing for the RWOT7 papers to date. [Several more](../draft-documents)] are in process._
 
-## [*BTCR v0.1 Decisions*](btcr_0_1.pdf) [[md](btcr_0_1.md)] [[odt](btcr_0_1.odt)]
+## [*BTCR v0.1 Decisions*](btcr_0_1.pdf) [[html](btcr_0_1)] [[odt](btcr_0_1.odt)]
 
 #### Kim Hamilton Duffy, Christopher Allen, and Dan Pape
 
 > The Bitcoin Reference (BTCR) DID method supports DIDs using the Bitcoin blockchain. This method has been under development through Rebooting Web of Trust events and hackathons over the past year. The BTCR method's reliance on the Bitcoin blockchain presents both advantages and design challenges. During RWOT7, the authors made a number of design and implementation decisions -- largely scope-cutting in nature -- in order to lock down a Minimum Viable Product (MVP) version, which we'll refer to as v0.1. This paper documents those decisions, which will apply to the upcoming v0.1 BTCR method specification and associated v0.1 BTCR reference implementation.
 
-## [*A DID for Everything*](A_DID_for_everything.pdf) [[md](A_DID_for_everything.md)] [[odt](A_DID_for_everything.odt)]
+## [*A DID for Everything*](A_DID_for_everything.pdf) [[html](A_DID_for_everything)] [[odt](A_DID_for_everything.odt)]
 
 #### Shaun Conway, Andrew Hughes, Moses Ma, Jack Poole, Martin Riedel, Samuel M. Smith Ph.D., and Carsten Stöcker
 
@@ -16,7 +16,7 @@ _This is a listing for the RWOT7 papers to date. [Several more](../draft-documen
 
 > The paper will present novel use-cases for DIDs and DADs and propose a new cryptographic data structure that is a self-contained blockchain of DADs. This enables the verification of the provenance of a given data flow. It builds on a prior paper and an associated reading.
 
-## [*How to Convince Dad\* of the Importance of Self-Sovereign Identity*](convincing-dad.pdf) [[md](convincing-dad.md)] [[odt](convincing-dad.odt)]
+## [*How to Convince Dad\* of the Importance of Self-Sovereign Identity*](convincing-dad.pdf) [[html](convincing-dad)] [[odt](convincing-dad.odt)]
 
 #### Shannon Appelcline, Kenneth Bok, Lucas Parker, Peter Scott, and Matthew Wong
 
@@ -24,13 +24,13 @@ _This is a listing for the RWOT7 papers to date. [Several more](../draft-documen
 
 > This paper addresses that need by offering arguments to a variety of people who might be reluctant to use self-sovereign identity, uninterested in its possibilities, or oblivious to the dangers of centralization. By focusing on the needs of real people, we hope to also encourage developers, engineers, and software business owners to create the apps that will address their reluctance and fulfill their needs, making self-sovereign identity a reality.
 
-## [*IPLD as a general pattern for DID documents and Verifiable Claims*](ipld-did.pdf) [[md](ipld-did.md)] [[odt](ipld-did.odt)]
+## [*IPLD as a general pattern for DID documents and Verifiable Claims*](ipld-did.pdf) [[html](ipld-did)] [[odt](ipld-did.odt)]
 
 #### jonnycrunch, Anthony Ronning, Kim Duffy, Christian Lundkvist
 
 > Since the emergence of the Decentralized Identifier (DID) specification at the Fall 2016 Rebooting the Web of Trust [1], numerous DID method specifications have appeared. Each DID method specification defines how to resolve a cryptographically-tied DID document given a method-specific identifier. In this paper, we describe a way to represent the DID document as a content-addressed Merkle Directed Acyclic Graph (DAG) using Interplanetary Linked Data (IPLD). This technique enables more cost-efficient, scaleable creation of DIDs and can be applied across different DID method specifications.
 
-## [*Peer to Peer Degrees of Trust*](peer-to-peer-degrees-of-trust.pdf) [[md](peer-to-peer-degrees-of-trust.md)] [[odt](peer-to-peer-degrees-of-trust.odt)]
+## [*Peer to Peer Degrees of Trust*](peer-to-peer-degrees-of-trust.pdf) [[html](peer-to-peer-degrees-of-trust)] [[odt](peer-to-peer-degrees-of-trust.odt)]
 
 #### Harrison Stahl, Titus Capilnean, Peter Snyder, and Tyler Yasaka
 
@@ -38,7 +38,7 @@ _This is a listing for the RWOT7 papers to date. [Several more](../draft-documen
 
 > In this paper, we explore the idea of using a web of trust as a tool to add authenticity to decentralized identifiers (DIDs). We define a framework for deriving relative trust degrees using a given trust metric: a "trustworthiness" score for a given identity from the perspective of another identity. It is our intent that this framework may be used as a starting point for an ongoing exploration of graph-based, decentralized trust. We believe this approach may ultimately be used as a foundation for decentralized reputation.
 
-## [*Resource Integrity Proofs*](resource-integrity-proofs.pdf) [[md](resource-integrity-proofs.md)] [[odt](resource-integrity-proofs.odt)]
+## [*Resource Integrity Proofs*](resource-integrity-proofs.pdf) [[html](resource-integrity-proofs)] [[odt](resource-integrity-proofs.odt)]
 
 #### Ganesh Annan and Kim Hamilton Duffy
 
@@ -46,7 +46,7 @@ _This is a listing for the RWOT7 papers to date. [Several more](../draft-documen
 
 > This paper proposes a linking solution that decouples integrity information from link and resource syntaxes, enabling verification of any representation of a resource from any type of link. We call this approach Resource Integrity Proofs (RIPs). RIPs provide a succinct way to link to resources with cryptographically verifiable content integrity. RIPs can be combined with blockchain technology to create discoverable proofs of existence to off-chain resources.
 
-## [*Use Cases and Proposed Solutions for Verifiable Offline Credentials*](offline-use-cases.pdf) [[md](offline-use-cases.md)] [[odt](offline-use-cases.odt)]
+## [*Use Cases and Proposed Solutions for Verifiable Offline Credentials*](offline-use-cases.pdf) [[html](offline-use-cases)] [[odt](offline-use-cases.odt)]
 
 #### Michael Lodder, Samantha Mathews Chase, and Wolf McNally
 

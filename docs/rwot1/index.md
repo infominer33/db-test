@@ -58,4 +58,4 @@ A different repository is available for each of the Rebooting the Web of Trust d
 
 ## License
 
-All of the contents of this directory are licensed [Creative Commons CC-BY](final-documents/LICENSE-CC-BY-4.0.md) their contributors.
+All of the contents of this directory are licensed [Creative Commons CC-BY](final-documents/LICENSE-CC-BY-4.0) their contributors.

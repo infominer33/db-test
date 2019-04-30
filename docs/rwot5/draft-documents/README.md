@@ -8,13 +8,13 @@ Activity Pub Update | Chris W. | [Final](../final-documents/activitypub-decentra
 Amira: RWOT Use Case | Joe A. | [Final](../final-documents/amira.pdf) | **DONE**
 Blockcerts Revocation with DIDs | Kim | [Final](../final-documents/blockcerts-revocation.pdf)| **DONE**
 Breaking (Down) the Law | Dazza | [Notes](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/tree/master/draft-documents/BreakingDownAndConnectingLawAndTech) | Abandoned
-Data Minimization & Selective Disclosure | Lionel | [Outline](DataMinimization/Data%20Minimzation%20and%20Selective%20Disclosure.md) | Pending
+Data Minimization & Selective Disclosure | Lionel | [Outline](DataMinimization/Data%20Minimzation%20and%20Selective%20Disclosure) | Pending
 DCS Triangle | Greg S. | [Final](../final-documents/dcs-theorem/The-DCS-Theorem.pdf) | **DONE**
-DID Method Spec Templates | Drummond | [Draft](DID%20Method%20Spec%20Template%20Definition.md) | Ongoing
+DID Method Spec Templates | Drummond | [Draft](DID%20Method%20Spec%20Template%20Definition) | Ongoing
 DID Resolver | Markus | [Examples & Images](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/tree/master/draft-documents/UniversalResolver) | RWOT6 Topic
-Four Primers | Joe, Natalie, Drummond, Manu | [DID](did-primer.md) -- [Functional ID](functional-identity-primer.md) -- [Self-Sovereign ID](self-sovereign-identity-primer.md) -- [Verifiable Claims](verifiable-claims-primer.md)
+Four Primers | Joe, Natalie, Drummond, Manu | [DID](did-primer) -- [Functional ID](functional-identity-primer) -- [Self-Sovereign ID](self-sovereign-identity-primer) -- [Verifiable Claims](verifiable-claims-primer)
 GDPR | Marta | [Final](../final-documents/gdpr.pdf) | **DONE**
-Hub Asset Access Control System  | Matt S. | [Revision](DIF-Hub-Capabilities-RWOT.md)
+Hub Asset Access Control System  | Matt S. | [Revision](DIF-Hub-Capabilities-RWOT)
 Identity Hubs Capabilities Perspective | Adrian | [Final](../final-documents/identity-hubs-capabilities-perspective.pdf) | **DONE**
 Identity Mental Maps | Joe A. | | Cancelled
 IPID Method Spec | Jonny | [Draft](https://github.com/jonnycrunch/ipid) | Abandoned
@@ -81,5 +81,5 @@ DID Spec | Manu, Drummond | [Spec](did-spec/DID-Specification.html)
 
 Name | Lead | Link | Status
 ---|---|---|---
-DID Client - Verifiable Claims Issuer | Manu | [Draft](did-client-issuer/did-client-issuer.md)
-IoT Devices in BigChainDB Using DID | Gautam | [Draft](did%20-%20iot%20-%20bigchaindb/iot%20devices%20with%20dids%20on%20bigchaindb.md)
+DID Client - Verifiable Claims Issuer | Manu | [Draft](did-client-issuer/did-client-issuer)
+IoT Devices in BigChainDB Using DID | Gautam | [Draft](did%20-%20iot%20-%20bigchaindb/iot%20devices%20with%20dids%20on%20bigchaindb)

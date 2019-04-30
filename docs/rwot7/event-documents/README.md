@@ -1,18 +1,18 @@
 This will be the location for plenary summaries, photographs, and other content from the design workshop itself.
 
 
-* [1-intro](plenaries/1-intro.md)
-* [2-topicpapers](plenaries/2-topicpapers.md)
-* [3-horizons](plenaries/3-horizons.md)
-* [4-sponsorships](plenaries/4-sponsorships.md)
-* [5-topics](plenaries/5-topics.md)
-* [6-losttopics](plenaries/6-losttopics.md)
-* [7-sponsorcivic](plenaries/7-sponsorcivic.md)
-* [8-sponsormicrosoft](plenaries/8-sponsormicrosoft.md)
-* [9-demos](plenaries/9-demos.md)
-* [10-reportout](plenaries/10-reportout.md)
-* [11-feedback](plenaries/11-feedback.md)
-* [12-finalreport](plenaries/12-finalreport.md)
+* [1-intro](plenaries/1-intro)
+* [2-topicpapers](plenaries/2-topicpapers)
+* [3-horizons](plenaries/3-horizons)
+* [4-sponsorships](plenaries/4-sponsorships)
+* [5-topics](plenaries/5-topics)
+* [6-losttopics](plenaries/6-losttopics)
+* [7-sponsorcivic](plenaries/7-sponsorcivic)
+* [8-sponsormicrosoft](plenaries/8-sponsormicrosoft)
+* [9-demos](plenaries/9-demos)
+* [10-reportout](plenaries/10-reportout)
+* [11-feedback](plenaries/11-feedback)
+* [12-finalreport](plenaries/12-finalreport)
 
 
 ![](photos/IMAG1002.jpg)

@@ -162,10 +162,10 @@ This directory continues the drafts of the white papers and specs that are comin
 |:--|:--|:--|
 | Adhaar vs Sovereign | Joe | |
 | Decentralized Interfaces for Extensible APIs | Vlad | |
-| Survey of Cryptographic Key Recovery Methods | Ryan etal. | [Outline](key_recovery_methods.md) |
+| Survey of Cryptographic Key Recovery Methods | Ryan etal. | [Outline](key_recovery_methods) |
 | Key Recovery (I) | Drummond | |
 | Key Recovery (II) | Christian | |
-| Minimal Web of Trust Schema | Andrew | [Notes](topics-and-advance-readingsWeb%20Of%20Trust%20Schema%20RWOT%206.md) |
-| Permissionless, Replicated, Decentralised Storage Network | Kulpreet | [Draft](permissionless-replicated-decentralised-storage-network.md) |
+| Minimal Web of Trust Schema | Andrew | [Notes](topics-and-advance-readingsWeb%20Of%20Trust%20Schema%20RWOT%206) |
+| Permissionless, Replicated, Decentralised Storage Network | Kulpreet | [Draft](permissionless-replicated-decentralised-storage-network) |
 
-We also have primers on [functional identity](../topics-and-advance-readings/functional-identity-primer.md) and [DIDs](../topics-and-advance-readings/did-primer.md) that have been developed over two Web of Trust events and might be ready to release as final papers.
+We also have primers on [functional identity](../topics-and-advance-readings/functional-identity-primer) and [DIDs](../topics-and-advance-readings/did-primer) that have been developed over two Web of Trust events and might be ready to release as final papers.
