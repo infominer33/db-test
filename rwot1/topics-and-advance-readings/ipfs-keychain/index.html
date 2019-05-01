@@ -60,35 +60,6 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <a name="_top"></a>
     
 
-    
-    
-      
-    
-
-  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
-    
-    <div class="wm-article-nav pull-right">
-      <a href="../ipfs-links/" class="btn btn-xs btn-default pull-right">
-        Next
-        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </a>
-      <a href="../ipfs-links/" class="btn btn-xs btn-link">
-        IPFS - The Permanent Web
-      </a>
-    </div>
-    
-    <div class="wm-article-nav">
-      <a href="../hierarchical-deterministic-keys--bip32-and-beyond/" class="btn btn-xs btn-default pull-left">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../hierarchical-deterministic-keys--bip32-and-beyond/" class="btn btn-xs btn-link">
-        Hierarchical deterministic keys  bip32 and beyond
-      </a>
-    </div>
-    
-  </div>
-
-    
-
     <h1 id="notes-on-the-ipfs-keychain-or-the-web-keychain">Notes on the IPFS Keychain (or the Web Keychain)</h1>
 <p>(These are just short notes, becuase the idea is very simple, and obvious. It does not take much to understand it. But like SFS naming, it is <em>subtly powerful</em>).</p>
 <p><em>Abstract:</em>  <em><strong>The Keychain</strong></em> is a datastructure for cryptographic artifacts, on top of IPFS. The Keychain allows users to place public keys, signatures, certificates, and all sorts of proofs directly on top of IPFS, creating a merkle-graph of artifacts. This way, one artifact contains merkle links to artifacts used to produce it or necessary for its verification -- e.g. a signature links to the raw data and to the key. This enables easy retrieval and verification of all necessary pieces of data. Moreover, entire swaths (graphs) of artifacts can be retrieved pre-emptively and stored locally for fast access, and even disconnected operation.</p>
@@ -144,36 +115,6 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>and many more. Basically, any protocol that includes <em>producing</em> and <em>distributing</em> cryptographic artifacts could benefit from using IPFS and The Keychain.</p>
 
   <br>
-    
-
-    
-    
-      
-    
-
-  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
-    
-    <div class="wm-article-nav pull-right">
-      <a href="../ipfs-links/" class="btn btn-xs btn-default pull-right">
-        Next
-        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </a>
-      <a href="../ipfs-links/" class="btn btn-xs btn-link">
-        IPFS - The Permanent Web
-      </a>
-    </div>
-    
-    <div class="wm-article-nav">
-      <a href="../hierarchical-deterministic-keys--bip32-and-beyond/" class="btn btn-xs btn-default pull-left">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../hierarchical-deterministic-keys--bip32-and-beyond/" class="btn btn-xs btn-link">
-        Hierarchical deterministic keys  bip32 and beyond
-      </a>
-    </div>
-    
-  </div>
-
-    <br>
 </div>
 
 <footer class="col-md-12 wm-page-content">
