@@ -6,6 +6,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://infominer.id/yest/LICENSE-CC-BY-4.0/</loc>
+     <lastmod>2019-05-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://infominer.id/yest/rwot1/</loc>
      <lastmod>2019-05-01</lastmod>
      <changefreq>daily</changefreq>
@@ -17,11 +22,6 @@
     </url>
     <url>
      <loc>https://infominer.id/yest/rwot1/draft-documents/Distributed-Permanent-Identifier-Registry/</loc>
-     <lastmod>2019-05-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/rwot1/draft-documents/LICENSE-CC-BY-4.0/</loc>
      <lastmod>2019-05-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -56,7 +56,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/rwot1/event-documents/readme/</loc>
+     <loc>https://infominer.id/yest/rwot1/event-documents/</loc>
      <lastmod>2019-05-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -102,16 +102,6 @@
     </url>
     <url>
      <loc>https://infominer.id/yest/rwot1/final-documents/</loc>
-     <lastmod>2019-05-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/rwot1/final-documents/LICENSE-CC-BY-4.0/</loc>
-     <lastmod>2019-05-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/rwot1/supporting-files/LICENSE-CC-BY-4.0/</loc>
      <lastmod>2019-05-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -477,11 +467,6 @@
     </url>
     <url>
      <loc>https://infominer.id/yest/rwot2/final-documents/</loc>
-     <lastmod>2019-05-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/rwot2/supporting-files/LICENSE-CC-BY-4.0/</loc>
      <lastmod>2019-05-01</lastmod>
      <changefreq>daily</changefreq>
     </url>

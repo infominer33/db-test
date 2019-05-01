@@ -58,35 +58,6 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <a name="_top"></a>
     
 
-    
-    
-      
-    
-
-  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
-    
-    <div class="wm-article-nav pull-right">
-      <a href="../sovrin-did-method-spec-pointer/" class="btn btn-xs btn-default pull-right">
-        Next
-        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </a>
-      <a href="../sovrin-did-method-spec-pointer/" class="btn btn-xs btn-link">
-        Sovrin DID Method Spec Pointer
-      </a>
-    </div>
-    
-    <div class="wm-article-nav">
-      <a href="../self-sovereign-compliance/" class="btn btn-xs btn-default pull-left">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../self-sovereign-compliance/" class="btn btn-xs btn-link">
-        Self-Sovereign Compliance: Use case for DIDs and VCs in decentralized capital formation
-      </a>
-    </div>
-    
-  </div>
-
-    
-
     <h1 id="sidetree-asset-protocol">Sidetree Asset Protocol</h1>
 <p>Using blockchains for anchoring and tracking unique, non-transferable, digital assets is a useful primitive, but the current strategies for doing so suffer from severely limited transactional performance constraints. Sidetree Assets is a Layer 2 protocol for anchoring and tracking assets across blockchains. Sidetree Assets support a variety of DPKI operations. Sidetree Assets, and nodes that implement the protocol, are not another blockchain, and do not require a consensus layer, they run atop any existing blockchain that supports the ability to embed a small amount of data in a transaction.</p>
 <h2 id="system-overview">System Overview</h2>
@@ -314,36 +285,6 @@ async function processTransaction(txn){
 <p>By requiring the leaf hash submitted in a sidetree to being with N level of leading 0s, it may be possible to degrade the ability of bad actors to effectively spam the system with useless sidetrees with massive numbers of ops. The user-level outcome would be that someone using the system to do an update of their human identity's DID would hash the update object with an included nonce on their local device until it satisfied the requisite work requirement, then have it included in a sidetree. Nodes would discard any leaves that did not meet the require work level.</p>
 
   <br>
-    
-
-    
-    
-      
-    
-
-  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
-    
-    <div class="wm-article-nav pull-right">
-      <a href="../sovrin-did-method-spec-pointer/" class="btn btn-xs btn-default pull-right">
-        Next
-        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </a>
-      <a href="../sovrin-did-method-spec-pointer/" class="btn btn-xs btn-link">
-        Sovrin DID Method Spec Pointer
-      </a>
-    </div>
-    
-    <div class="wm-article-nav">
-      <a href="../self-sovereign-compliance/" class="btn btn-xs btn-default pull-left">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../self-sovereign-compliance/" class="btn btn-xs btn-link">
-        Self-Sovereign Compliance: Use case for DIDs and VCs in decentralized capital formation
-      </a>
-    </div>
-    
-  </div>
-
-    <br>
 </div>
 
 <footer class="col-md-12 wm-page-content">

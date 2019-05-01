@@ -7,9 +7,14 @@ edit_uri:
 theme: windmill
 use_directory_urls: true
 
-
 plugins:
     - awesome-pages:
         filename: .index
         collapse_single_pages: true
-    - search
+    - search:
+        prebuild_index: true
+
+
+extra:
+  article_nav_top: false
+  article_nav_bottom: false
