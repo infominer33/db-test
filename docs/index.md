@@ -1,6 +1,18 @@
-# DB Yesting
+# Yes Deployment of MkDocs
+
+This is for testing purposes, and practice working with MkDocs.
+
+---
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
+
+* [/mkdocs/mkdocs/wiki/MkDocs-Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
+* [MkDocs Material Components - Cheat Sheet](https://yakworks.github.io/mkdocs-material-components/cheat-sheet/)
+* [mkdocs.readthedocs.io](https://mkdocs.readthedocs.io)
+* [mkdocs-awesome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
+* [mkdocs/mkdocs/wiki/MkDocs-Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
+* [metadata-for-markdown-mkdocs/](https://blogs.pjjk.net/phil/metadata-for-markdown-mkdocs/)
+
 
 ## Commands
 
