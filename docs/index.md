@@ -1,6 +1,7 @@
 # Yes Deployment of MkDocs
 
-*thank you for your patience while search\nav load*
+>:memo: *thank you for your patience*
+while search and navigation load :D
 
 This is for testing purposes, and practice working with MkDocs.
 

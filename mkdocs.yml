@@ -11,8 +11,7 @@ plugins:
     - awesome-pages:
         filename: .index
         collapse_single_pages: true
-    - search:
-        prebuild_index: true
+    - search 
 
 
 extra:
