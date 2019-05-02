@@ -766,62 +766,62 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/draft-documents/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/draft-documents/ld-signatures/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/draft-documents/what-users-really-want/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/DesignConsiderationsOfDecentralizedReputationSystems_Abstract/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/SignatureAlignment-Day1ProblemStatement/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/DesignConsiderationsOfDecentralizedReputationSystems_Abstract/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/SignatureAlignmentAbstract/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/SignatureAlignment-Day1ProblemStatement/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/SignatureAlignmentImplementation/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/SignatureAlignmentAbstract/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/btcr-did-method-spec/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/SignatureAlignmentImplementation/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/did-auth/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/btcr-did-method-spec/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Documents/group-abstracts/work-abstract-did-methods-btcr-pgpr/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/did-auth/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Drafts/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/event-documents/group-abstracts/work-abstract-did-methods-btcr-pgpr/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Drafts/ld-signatures/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT4/final-documents/</loc>
+     <loc>https://infominer.id/yest/RWoT4/Drafts/what-users-really-want/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -837,11 +837,6 @@
     </url>
     <url>
      <loc>https://infominer.id/yest/RWoT4/final-documents/what-users-really-want/</loc>
-     <lastmod>2019-05-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/RWoT4/supporting-files/blank/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
