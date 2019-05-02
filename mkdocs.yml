@@ -5,7 +5,7 @@ repo_url: https://github.com/infominer33/yest
 repo_name: infominer33/yest
 edit_uri: 
 
-site_favicon: docs/img/favicon.ico
+site_favicon: 'img/favicon.ico'
 copyright: "All of the contents of this directory are licensed [Creative Commons CC-BY](docs/LICENSE-CC-BY-4.0/) their contributors, unless otherwise noted."
 
 theme: windmill
