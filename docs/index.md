@@ -1,7 +1,6 @@
 # Yes Deployment of MkDocs
 
->:memo: *thank you for your patience*
-while search and navigation load :D
+!!! tip "thank you for your patience while search and navigation load :D"
 
 This is for testing purposes, and practice working with MkDocs.
 
@@ -20,7 +19,7 @@ This is for testing purposes, and practice working with MkDocs.
 * [https://python-markdown.github.io/extensions/](https://python-markdown.github.io/extensions/)
   * [Python-Markdown/markdown/wiki/Third-Party-Extensions](https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions)
 * [https://python-markdown.github.io/extensions/smarty/](https://python-markdown.github.io/extensions/smarty/)
-
+* [injecting-pdf-html-page/](https://scalified.com/2018/01/16/injecting-pdf-html-page/)
 
 
 ## Commands
@@ -29,6 +28,7 @@ This is for testing purposes, and practice working with MkDocs.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs help` - Print this help message.
+* `mkdocs gh-deploy` - Build and Push to GitHub. (assuming you've set the repository in mkdocs.yml and you have SSL enabled, otherwise it just builds)
 
 ## Project layout
 
