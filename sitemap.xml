@@ -361,7 +361,12 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT2/Documents/graphic-recording/readme/</loc>
+     <loc>https://infominer.id/yest/RWoT2/Documents/graphic-recording/</loc>
+     <lastmod>2019-05-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://infominer.id/yest/RWoT2/Documents/photos/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -557,11 +562,6 @@
     </url>
     <url>
      <loc>https://infominer.id/yest/RWoT3/</loc>
-     <lastmod>2019-05-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/RWoT3/Documents/blank/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
