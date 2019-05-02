@@ -11,7 +11,7 @@ In advance of the design workshop, all participants produced a one-or-two page t
 * A specific problem that they wanted to solve with a web-of-trust solution, and why current solutions (PGP or CA-based PKI) can't address the problem?
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
-Please see the [Advance Readings README](topics-and-advance-readings) for a listing of all of the papers.
+Please see the [Advance Readings README](topics-and-advance-readings/) for a listing of all of the papers.
 
 ## Completed Papers
 
@@ -67,12 +67,12 @@ The design workshop exceeded its goal of three to five white papers with a total
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
 
 * [Rebooting the Web of Trust I: San Francisco (November 2015)](../RWoT1/)
-* [Rebooting the Web of Trust II: ID2020 (May 2016)](../RWoT2)
-* [Rebooting the Web of Trust III: San Francisco (October 2016)](../RWoT3)
-* [Rebooting the Web of Trust IV: Paris (April 2017)](../RWoT4)
-* [Rebooting the Web of Trust V: Boston (October 2017)](../RWoT5)
-* [Rebooting the Web of Trust VI: Santa Barbara (March 2018)](../RWoT5)
-* [Rebooting the Web of Trust VII: Toronto (September 2018)](../RWoT7)
+* [Rebooting the Web of Trust II: ID2020 (May 2016)](../RWoT2/)
+* [Rebooting the Web of Trust III: San Francisco (October 2016)](../RWoT3/)
+* [Rebooting the Web of Trust IV: Paris (April 2017)](../RWoT4/)
+* [Rebooting the Web of Trust V: Boston (October 2017)](../RWoT5/)
+* [Rebooting the Web of Trust VI: Santa Barbara (March 2018)](../RWoT6/)
+* [Rebooting the Web of Trust VII: Toronto (September 2018)](../RWoT7/)
 * [Rebooting the Web of Trust VIII: Barcelona](../RWoT8)
 
 ## License

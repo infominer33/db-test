@@ -2,7 +2,7 @@
 title: "Topics & Advance Readings - RWoT3"
 ---
 
-In advance of the October DesignShop, all participants were requested to post in the [Topics and Advanced Readings](topics-and-advance-readings) folder a 1 or 2 page topics paper to be shared with other attendees on either:
+In advance of the October DesignShop, all participants were requested to post in the [Topics and Advanced Readings](topics-and-advance-readings/) folder a 1 or 2 page topics paper to be shared with other attendees on either:
 * A specific problem that you'd like to solve with a web-of-trust solution, and why current solutions (pgp or ca-based pki) can't address the problem?
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 

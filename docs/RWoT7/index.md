@@ -120,7 +120,7 @@ A different repository is available for each of the Rebooting the Web of Trust d
 * [Rebooting the Web of Trust IV: Paris (April 2017)](../RWoT4-paris)
 * [Rebooting the Web of Trust V: Boston (October 2017)](../RWoT5-boston)
 * [Rebooting the Web of Trust VI: Santa Barbara (March 2018)](../RWoT6)
-* [Rebooting the Web of Trust VII: Toronto (September 2018)](../RWoT7)
+* [Rebooting the Web of Trust VII: Toronto (September 2018)](../RWoT7/)
 * [Rebooting the Web of Trust VIII: Barcelona](../RWoT8)
 
 ## License
