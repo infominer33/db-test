@@ -101,6 +101,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://infominer.id/yest/RWoT1/supporting-files/</loc>
+     <lastmod>2019-05-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://infominer.id/yest/RWoT1/topics-and-advance-readings/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
@@ -461,6 +466,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://infominer.id/yest/RWoT2/supporting-files/</loc>
+     <lastmod>2019-05-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://infominer.id/yest/RWoT2/topics-and-advance-readings/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
@@ -641,17 +651,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT3/final-documents/</loc>
-     <lastmod>2019-05-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/RWoT3/supporting-files/blank/</loc>
-     <lastmod>2019-05-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://infominer.id/yest/RWoT3/supporting-files/rtk/readme/</loc>
+     <loc>https://infominer.id/yest/RWoT3/supporting-files/</loc>
      <lastmod>2019-05-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
