@@ -1,5 +1,5 @@
 site_name: RWoT DIR Launchpad
-remote_branch: master
+remote_branch: gh-pages
 site_url: https://infominer.id/yest
 repo_url: https://github.com/infominer33/yest
 repo_name: infominer33/yest
