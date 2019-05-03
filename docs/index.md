@@ -6,6 +6,12 @@ This is for testing purposes, and practice working with MkDocs.
 
 ---
 
+Because of the way MkDocs works, it's best to use the `master` branch for your markdown and configuration, and publish to `gh-pages`.
+
+Reason being, every time you make a change, MkDocs `touches` every single file in the build... meaning when I was building in the master branch I would see those 1000 files change, every time I made an edit.
+
+This way, the UX of my editor is way less clogged, and it makes the project easier to contribute to.. because otherwise mydocs writes over your configuration files on github so others only see the finished site files.
+
 * [https://www.mkdocs.org/](https://www.mkdocs.org/)
 * [/mkdocs/mkdocs/wiki/MkDocs-Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
 * [MkDocs Material Components - Cheat Sheet](https://yakworks.github.io/mkdocs-material-components/cheat-sheet/)
