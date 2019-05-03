@@ -1156,11 +1156,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT5/Final/</loc>
-     <lastmod>2019-05-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://infominer.id/yest/RWoT5/Final/activitypub-decentralized-distributed/</loc>
      <lastmod>2019-05-03</lastmod>
      <changefreq>daily</changefreq>
@@ -1201,7 +1196,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://infominer.id/yest/RWoT5/Final/dcs-theorem/The-DCS-Theorem/</loc>
+     <loc>https://infominer.id/yest/RWoT5/Final/DCS-Theorem/</loc>
      <lastmod>2019-05-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
