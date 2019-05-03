@@ -18,6 +18,7 @@ plugins:
         filename: .index
         collapse_single_pages: true
     - search 
+    - prebuild_index
 
 
 extra:
